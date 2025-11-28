@@ -1,0 +1,236 @@
+[
+  {
+    "id": "hangout_001",
+    "title": "Movie Marathon",
+    "description": "Watching action movies. Pizza provided!",
+    "category": "social",
+    "tags": [
+      "movies",
+      "entertainment",
+      "fun"
+    ],
+    "location": "Arts Building",
+    "date_time": "2025-12-12T17:23:57.951288Z",
+    "creator": "user_0021",
+    "attendees": [
+      "user_0012",
+      "user_0013",
+      "user_0009",
+      "user_0035",
+      "user_0024",
+      "user_0034",
+      "user_0033"
+    ],
+    "everyone": true,
+    "created": "2025-11-26T17:23:57.951304Z"
+  },
+  {
+    "id": "hangout_002",
+    "title": "Movie Marathon",
+    "description": "Watching sci-fi movies. Pizza provided!",
+    "category": "social",
+    "tags": [
+      "movies",
+      "entertainment",
+      "fun"
+    ],
+    "location": "Science Center",
+    "date_time": "2025-11-30T17:23:57.951317Z",
+    "creator": "user_0044",
+    "attendees": [
+      "user_0036",
+      "user_0024",
+      "user_0006",
+      "user_0026",
+      "user_0001",
+      "user_0017",
+      "user_0035"
+    ],
+    "everyone": true,
+    "created": "2025-11-21T17:23:57.951329Z"
+  },
+  {
+    "id": "hangout_003",
+    "title": "Study Group: ENG101",
+    "description": "Weekly study session for ENG101. Library room 204.",
+    "category": "academic",
+    "tags": [
+      "study",
+      "group",
+      "academic"
+    ],
+    "location": "Science Center",
+    "date_time": "2025-12-08T17:23:57.951338Z",
+    "creator": "user_0031",
+    "attendees": [
+      "user_0040"
+    ],
+    "everyone": false,
+    "created": "2025-11-23T17:23:57.951355Z"
+  },
+  {
+    "id": "hangout_004",
+    "title": "Hiking Trip",
+    "description": "Planning a hike this weekend. Meeting at Campus Trailhead.",
+    "category": "social",
+    "tags": [
+      "outdoors",
+      "hiking",
+      "nature"
+    ],
+    "location": "Student Union",
+    "date_time": "2025-11-30T17:23:57.951363Z",
+    "creator": "user_0003",
+    "attendees": [
+      "user_0032",
+      "user_0008",
+      "user_0007",
+      "user_0016",
+      "user_0035"
+    ],
+    "everyone": true,
+    "created": "2025-11-22T17:23:57.951371Z"
+  },
+  {
+    "id": "hangout_005",
+    "title": "Food Adventure",
+    "description": "Trying new restaurant: Taco Haven. Who's in?",
+    "category": "social",
+    "tags": [
+      "food",
+      "dining",
+      "adventure"
+    ],
+    "location": "Quad",
+    "date_time": "2025-11-29T17:23:57.951378Z",
+    "creator": "user_0040",
+    "attendees": [
+      "user_0018",
+      "user_0003",
+      "user_0045",
+      "user_0024",
+      "user_0014",
+      "user_0029",
+      "user_0029"
+    ],
+    "everyone": true,
+    "created": "2025-11-23T17:23:57.951387Z"
+  },
+  {
+    "id": "hangout_006",
+    "title": "Pickup Basketball",
+    "description": "Organizing a casual game at the rec center. All skill levels!",
+    "category": "social",
+    "tags": [
+      "sports",
+      "basketball",
+      "fitness"
+    ],
+    "location": "Science Center",
+    "date_time": "2025-12-02T17:23:57.951397Z",
+    "creator": "user_0008",
+    "attendees": [
+      "user_0006",
+      "user_0043",
+      "user_0014",
+      "user_0042",
+      "user_0041",
+      "user_0039",
+      "user_0002",
+      "user_0004"
+    ],
+    "everyone": true,
+    "created": "2025-11-25T17:23:57.951406Z"
+  },
+  {
+    "id": "hangout_007",
+    "title": "Board Game Night",
+    "description": "Hosting board games at my place. Bring snacks!",
+    "category": "social",
+    "tags": [
+      "games",
+      "fun",
+      "social"
+    ],
+    "location": "Science Center",
+    "date_time": "2025-12-11T17:23:57.951413Z",
+    "creator": "user_0022",
+    "attendees": [
+      "user_0039",
+      "user_0001",
+      "user_0018"
+    ],
+    "everyone": true,
+    "created": "2025-11-26T17:23:57.951419Z"
+  },
+  {
+    "id": "hangout_008",
+    "title": "Movie Marathon",
+    "description": "Watching comedy movies. Pizza provided!",
+    "category": "social",
+    "tags": [
+      "movies",
+      "entertainment",
+      "fun"
+    ],
+    "location": "Science Center",
+    "date_time": "2025-12-10T17:23:57.951426Z",
+    "creator": "user_0038",
+    "attendees": [
+      "user_0002",
+      "user_0012",
+      "user_0017",
+      "user_0004",
+      "user_0009",
+      "user_0048"
+    ],
+    "everyone": true,
+    "created": "2025-11-27T17:23:57.951434Z"
+  },
+  {
+    "id": "hangout_009",
+    "title": "Pickup Basketball",
+    "description": "Organizing a casual game at the rec center. All skill levels!",
+    "category": "social",
+    "tags": [
+      "sports",
+      "basketball",
+      "fitness"
+    ],
+    "location": "Room 204",
+    "date_time": "2025-12-01T17:23:57.951440Z",
+    "creator": "user_0003",
+    "attendees": [
+      "user_0030",
+      "user_0042",
+      "user_0002",
+      "user_0004",
+      "user_0031"
+    ],
+    "everyone": true,
+    "created": "2025-11-22T17:23:57.951450Z"
+  },
+  {
+    "id": "hangout_010",
+    "title": "Pickup Basketball",
+    "description": "Organizing a casual game at the rec center. All skill levels!",
+    "category": "social",
+    "tags": [
+      "sports",
+      "basketball",
+      "fitness"
+    ],
+    "location": "Library",
+    "date_time": "2025-11-30T17:23:57.951457Z",
+    "creator": "user_0009",
+    "attendees": [
+      "user_0040",
+      "user_0041",
+      "user_0038",
+      "user_0036",
+      "user_0046"
+    ],
+    "everyone": true,
+    "created": "2025-11-22T17:23:57.951466Z"
+  }
+]

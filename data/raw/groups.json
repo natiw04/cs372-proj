@@ -1,0 +1,359 @@
+[
+  {
+    "id": "group_001",
+    "name": "CS101: Introduction to Programming",
+    "type": "class",
+    "description": "CS101 - Fall 2024",
+    "tags": [
+      "cs",
+      "introduction"
+    ],
+    "created": "2024-08-01T00:00:00Z"
+  },
+  {
+    "id": "group_002",
+    "name": "CS201: Data Structures",
+    "type": "class",
+    "description": "CS201 - Fall 2024",
+    "tags": [
+      "cs",
+      "data"
+    ],
+    "created": "2024-08-01T00:00:00Z"
+  },
+  {
+    "id": "group_003",
+    "name": "CS301: Algorithms",
+    "type": "class",
+    "description": "CS301 - Fall 2024",
+    "tags": [
+      "cs",
+      "algorithms"
+    ],
+    "created": "2024-08-01T00:00:00Z"
+  },
+  {
+    "id": "group_004",
+    "name": "CS350: Database Systems",
+    "type": "class",
+    "description": "CS350 - Fall 2024",
+    "tags": [
+      "cs",
+      "database"
+    ],
+    "created": "2024-08-01T00:00:00Z"
+  },
+  {
+    "id": "group_005",
+    "name": "CS401: Machine Learning",
+    "type": "class",
+    "description": "CS401 - Fall 2024",
+    "tags": [
+      "cs",
+      "machine"
+    ],
+    "created": "2024-08-01T00:00:00Z"
+  },
+  {
+    "id": "group_006",
+    "name": "CS450: Software Engineering",
+    "type": "class",
+    "description": "CS450 - Fall 2024",
+    "tags": [
+      "cs",
+      "software"
+    ],
+    "created": "2024-08-01T00:00:00Z"
+  },
+  {
+    "id": "group_007",
+    "name": "CS480: Artificial Intelligence",
+    "type": "class",
+    "description": "CS480 - Fall 2024",
+    "tags": [
+      "cs",
+      "artificial"
+    ],
+    "created": "2024-08-01T00:00:00Z"
+  },
+  {
+    "id": "group_008",
+    "name": "MATH151: Calculus I",
+    "type": "class",
+    "description": "MATH151 - Fall 2024",
+    "tags": [
+      "math",
+      "calculus"
+    ],
+    "created": "2024-08-01T00:00:00Z"
+  },
+  {
+    "id": "group_009",
+    "name": "MATH152: Calculus II",
+    "type": "class",
+    "description": "MATH152 - Fall 2024",
+    "tags": [
+      "math",
+      "calculus"
+    ],
+    "created": "2024-08-01T00:00:00Z"
+  },
+  {
+    "id": "group_010",
+    "name": "MATH251: Multivariable Calculus",
+    "type": "class",
+    "description": "MATH251 - Fall 2024",
+    "tags": [
+      "math",
+      "multivariable"
+    ],
+    "created": "2024-08-01T00:00:00Z"
+  },
+  {
+    "id": "group_011",
+    "name": "MATH301: Linear Algebra",
+    "type": "class",
+    "description": "MATH301 - Fall 2024",
+    "tags": [
+      "math",
+      "linear"
+    ],
+    "created": "2024-08-01T00:00:00Z"
+  },
+  {
+    "id": "group_012",
+    "name": "MATH310: Probability Theory",
+    "type": "class",
+    "description": "MATH310 - Fall 2024",
+    "tags": [
+      "math",
+      "probability"
+    ],
+    "created": "2024-08-01T00:00:00Z"
+  },
+  {
+    "id": "group_013",
+    "name": "MATH350: Differential Equations",
+    "type": "class",
+    "description": "MATH350 - Fall 2024",
+    "tags": [
+      "math",
+      "differential"
+    ],
+    "created": "2024-08-01T00:00:00Z"
+  },
+  {
+    "id": "group_014",
+    "name": "PHYS101: General Physics I",
+    "type": "class",
+    "description": "PHYS101 - Fall 2024",
+    "tags": [
+      "phys",
+      "general"
+    ],
+    "created": "2024-08-01T00:00:00Z"
+  },
+  {
+    "id": "group_015",
+    "name": "PHYS102: General Physics II",
+    "type": "class",
+    "description": "PHYS102 - Fall 2024",
+    "tags": [
+      "phys",
+      "general"
+    ],
+    "created": "2024-08-01T00:00:00Z"
+  },
+  {
+    "id": "group_016",
+    "name": "PHYS301: Quantum Mechanics",
+    "type": "class",
+    "description": "PHYS301 - Fall 2024",
+    "tags": [
+      "phys",
+      "quantum"
+    ],
+    "created": "2024-08-01T00:00:00Z"
+  },
+  {
+    "id": "group_017",
+    "name": "PHYS350: Statistical Mechanics",
+    "type": "class",
+    "description": "PHYS350 - Fall 2024",
+    "tags": [
+      "phys",
+      "statistical"
+    ],
+    "created": "2024-08-01T00:00:00Z"
+  },
+  {
+    "id": "group_018",
+    "name": "BIOL101: Introduction to Biology",
+    "type": "class",
+    "description": "BIOL101 - Fall 2024",
+    "tags": [
+      "biol",
+      "introduction"
+    ],
+    "created": "2024-08-01T00:00:00Z"
+  },
+  {
+    "id": "group_019",
+    "name": "BIOL201: Genetics",
+    "type": "class",
+    "description": "BIOL201 - Fall 2024",
+    "tags": [
+      "biol",
+      "genetics"
+    ],
+    "created": "2024-08-01T00:00:00Z"
+  },
+  {
+    "id": "group_020",
+    "name": "BIOL301: Biochemistry",
+    "type": "class",
+    "description": "BIOL301 - Fall 2024",
+    "tags": [
+      "biol",
+      "biochemistry"
+    ],
+    "created": "2024-08-01T00:00:00Z"
+  },
+  {
+    "id": "group_021",
+    "name": "BIOL350: Neuroscience",
+    "type": "class",
+    "description": "BIOL350 - Fall 2024",
+    "tags": [
+      "biol",
+      "neuroscience"
+    ],
+    "created": "2024-08-01T00:00:00Z"
+  },
+  {
+    "id": "group_022",
+    "name": "ENG101: Composition I",
+    "type": "class",
+    "description": "ENG101 - Fall 2024",
+    "tags": [
+      "eng",
+      "composition"
+    ],
+    "created": "2024-08-01T00:00:00Z"
+  },
+  {
+    "id": "group_023",
+    "name": "ENG201: American Literature",
+    "type": "class",
+    "description": "ENG201 - Fall 2024",
+    "tags": [
+      "eng",
+      "american"
+    ],
+    "created": "2024-08-01T00:00:00Z"
+  },
+  {
+    "id": "group_024",
+    "name": "ENG301: Creative Writing",
+    "type": "class",
+    "description": "ENG301 - Fall 2024",
+    "tags": [
+      "eng",
+      "creative"
+    ],
+    "created": "2024-08-01T00:00:00Z"
+  },
+  {
+    "id": "group_025",
+    "name": "Computer Science Club",
+    "type": "org",
+    "description": "A community for CS students to learn, collaborate, and grow together.",
+    "tags": [
+      "cs",
+      "programming",
+      "tech"
+    ],
+    "created": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "group_026",
+    "name": "Math Club",
+    "type": "org",
+    "description": "For students passionate about mathematics and problem-solving.",
+    "tags": [
+      "math",
+      "problem-solving"
+    ],
+    "created": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "group_027",
+    "name": "Engineering Society",
+    "type": "org",
+    "description": "Supporting engineering students through networking and professional development.",
+    "tags": [
+      "engineering",
+      "professional"
+    ],
+    "created": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "group_028",
+    "name": "Data Science Club",
+    "type": "org",
+    "description": "Exploring data science, machine learning, and analytics together.",
+    "tags": [
+      "data",
+      "ml",
+      "analytics"
+    ],
+    "created": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "group_029",
+    "name": "Women in STEM",
+    "type": "org",
+    "description": "Empowering women in science, technology, engineering, and mathematics.",
+    "tags": [
+      "diversity",
+      "stem",
+      "support"
+    ],
+    "created": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "group_030",
+    "name": "Career Center",
+    "type": "org",
+    "description": "Helping students prepare for their professional futures.",
+    "tags": [
+      "career",
+      "jobs",
+      "professional"
+    ],
+    "created": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "group_031",
+    "name": "Student Government",
+    "type": "org",
+    "description": "Representing student interests and organizing campus events.",
+    "tags": [
+      "government",
+      "student-life"
+    ],
+    "created": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "group_032",
+    "name": "Robotics Club",
+    "type": "org",
+    "description": "Building robots and competing in robotics competitions.",
+    "tags": [
+      "robotics",
+      "engineering",
+      "competition"
+    ],
+    "created": "2024-01-01T00:00:00Z"
+  }
+]

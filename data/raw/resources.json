@@ -1,0 +1,692 @@
+[
+  {
+    "id": "resource_001",
+    "title": "CS101 Lecture Notes",
+    "description": "Helpful lecture notes for Introduction to Programming. Covers key concepts and formulas.",
+    "type": "lecture_notes",
+    "tags": [
+      "cs",
+      "101",
+      "lecture_notes"
+    ],
+    "group": "class_001",
+    "author": "user_0018",
+    "upvotes": 5,
+    "downvotes": 1,
+    "created": "2025-08-30T17:23:57.950150Z",
+    "_expanded": {
+      "group": {
+        "id": "class_001",
+        "name": "CS101: Introduction to Programming",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_002",
+    "title": "CS201 Study Guide",
+    "description": "Helpful study guide for Data Structures. Covers key concepts and formulas.",
+    "type": "study_guide",
+    "tags": [
+      "cs",
+      "201",
+      "study_guide"
+    ],
+    "group": "class_002",
+    "author": "user_0047",
+    "upvotes": 63,
+    "downvotes": 4,
+    "created": "2025-11-12T17:23:57.950204Z",
+    "_expanded": {
+      "group": {
+        "id": "class_002",
+        "name": "CS201: Data Structures",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_003",
+    "title": "CS301 Practice Problems",
+    "description": "Helpful practice problems for Algorithms. Covers key concepts and formulas.",
+    "type": "practice_problems",
+    "tags": [
+      "cs",
+      "301",
+      "practice_problems"
+    ],
+    "group": "class_003",
+    "author": "user_0018",
+    "upvotes": 76,
+    "downvotes": 1,
+    "created": "2025-09-01T17:23:57.950240Z",
+    "_expanded": {
+      "group": {
+        "id": "class_003",
+        "name": "CS301: Algorithms",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_004",
+    "title": "CS350 Practice Problems",
+    "description": "Helpful practice problems for Database Systems. Covers key concepts and formulas.",
+    "type": "practice_problems",
+    "tags": [
+      "cs",
+      "350",
+      "practice_problems"
+    ],
+    "group": "class_004",
+    "author": "user_0026",
+    "upvotes": 63,
+    "downvotes": 1,
+    "created": "2025-10-25T17:23:57.950261Z",
+    "_expanded": {
+      "group": {
+        "id": "class_004",
+        "name": "CS350: Database Systems",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_005",
+    "title": "CS350 Notes",
+    "description": "Helpful notes for Database Systems. Covers key concepts and formulas.",
+    "type": "notes",
+    "tags": [
+      "cs",
+      "350",
+      "notes"
+    ],
+    "group": "class_004",
+    "author": "user_0016",
+    "upvotes": 76,
+    "downvotes": 4,
+    "created": "2025-10-25T17:23:57.950267Z",
+    "_expanded": {
+      "group": {
+        "id": "class_004",
+        "name": "CS350: Database Systems",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_006",
+    "title": "CS401 Lecture Notes",
+    "description": "Helpful lecture notes for Machine Learning. Covers key concepts and formulas.",
+    "type": "lecture_notes",
+    "tags": [
+      "cs",
+      "401",
+      "lecture_notes"
+    ],
+    "group": "class_005",
+    "author": "user_0001",
+    "upvotes": 19,
+    "downvotes": 5,
+    "created": "2025-09-20T17:23:57.950293Z",
+    "_expanded": {
+      "group": {
+        "id": "class_005",
+        "name": "CS401: Machine Learning",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_007",
+    "title": "CS450 Cheat Sheet",
+    "description": "Helpful cheat sheet for Software Engineering. Covers key concepts and formulas.",
+    "type": "cheat_sheet",
+    "tags": [
+      "cs",
+      "450",
+      "cheat_sheet"
+    ],
+    "group": "class_006",
+    "author": "user_0041",
+    "upvotes": 69,
+    "downvotes": 4,
+    "created": "2025-11-02T17:23:57.950308Z",
+    "_expanded": {
+      "group": {
+        "id": "class_006",
+        "name": "CS450: Software Engineering",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_008",
+    "title": "CS450 Notes",
+    "description": "Helpful notes for Software Engineering. Covers key concepts and formulas.",
+    "type": "notes",
+    "tags": [
+      "cs",
+      "450",
+      "notes"
+    ],
+    "group": "class_006",
+    "author": "user_0024",
+    "upvotes": 25,
+    "downvotes": 4,
+    "created": "2025-09-21T17:23:57.950313Z",
+    "_expanded": {
+      "group": {
+        "id": "class_006",
+        "name": "CS450: Software Engineering",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_009",
+    "title": "CS480 Practice Problems",
+    "description": "Helpful practice problems for Artificial Intelligence. Covers key concepts and formulas.",
+    "type": "practice_problems",
+    "tags": [
+      "cs",
+      "480",
+      "practice_problems"
+    ],
+    "group": "class_007",
+    "author": "user_0005",
+    "upvotes": 73,
+    "downvotes": 1,
+    "created": "2025-11-11T17:23:57.950330Z",
+    "_expanded": {
+      "group": {
+        "id": "class_007",
+        "name": "CS480: Artificial Intelligence",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_010",
+    "title": "CS480 Summary",
+    "description": "Helpful summary for Artificial Intelligence. Covers key concepts and formulas.",
+    "type": "summary",
+    "tags": [
+      "cs",
+      "480",
+      "summary"
+    ],
+    "group": "class_007",
+    "author": "user_0031",
+    "upvotes": 75,
+    "downvotes": 1,
+    "created": "2025-10-25T17:23:57.950335Z",
+    "_expanded": {
+      "group": {
+        "id": "class_007",
+        "name": "CS480: Artificial Intelligence",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_011",
+    "title": "MATH152 Notes",
+    "description": "Helpful notes for Calculus II. Covers key concepts and formulas.",
+    "type": "notes",
+    "tags": [
+      "math",
+      "152",
+      "notes"
+    ],
+    "group": "class_009",
+    "author": "user_0005",
+    "upvotes": 61,
+    "downvotes": 4,
+    "created": "2025-11-15T17:23:57.950400Z",
+    "_expanded": {
+      "group": {
+        "id": "class_009",
+        "name": "MATH152: Calculus II",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_012",
+    "title": "MATH251 Study Guide",
+    "description": "Helpful study guide for Multivariable Calculus. Covers key concepts and formulas.",
+    "type": "study_guide",
+    "tags": [
+      "math",
+      "251",
+      "study_guide"
+    ],
+    "group": "class_010",
+    "author": "user_0011",
+    "upvotes": 53,
+    "downvotes": 0,
+    "created": "2025-10-09T17:23:57.950417Z",
+    "_expanded": {
+      "group": {
+        "id": "class_010",
+        "name": "MATH251: Multivariable Calculus",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_013",
+    "title": "MATH301 Notes",
+    "description": "Helpful notes for Linear Algebra. Covers key concepts and formulas.",
+    "type": "notes",
+    "tags": [
+      "math",
+      "301",
+      "notes"
+    ],
+    "group": "class_011",
+    "author": "user_0004",
+    "upvotes": 70,
+    "downvotes": 0,
+    "created": "2025-11-04T17:23:57.950440Z",
+    "_expanded": {
+      "group": {
+        "id": "class_011",
+        "name": "MATH301: Linear Algebra",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_014",
+    "title": "MATH301 Study Guide",
+    "description": "Helpful study guide for Linear Algebra. Covers key concepts and formulas.",
+    "type": "study_guide",
+    "tags": [
+      "math",
+      "301",
+      "study_guide"
+    ],
+    "group": "class_011",
+    "author": "user_0039",
+    "upvotes": 13,
+    "downvotes": 5,
+    "created": "2025-10-28T17:23:57.950444Z",
+    "_expanded": {
+      "group": {
+        "id": "class_011",
+        "name": "MATH301: Linear Algebra",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_015",
+    "title": "MATH310 Notes",
+    "description": "Helpful notes for Probability Theory. Covers key concepts and formulas.",
+    "type": "notes",
+    "tags": [
+      "math",
+      "310",
+      "notes"
+    ],
+    "group": "class_012",
+    "author": "user_0023",
+    "upvotes": 13,
+    "downvotes": 1,
+    "created": "2025-10-11T17:23:57.950474Z",
+    "_expanded": {
+      "group": {
+        "id": "class_012",
+        "name": "MATH310: Probability Theory",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_016",
+    "title": "MATH350 Cheat Sheet",
+    "description": "Helpful cheat sheet for Differential Equations. Covers key concepts and formulas.",
+    "type": "cheat_sheet",
+    "tags": [
+      "math",
+      "350",
+      "cheat_sheet"
+    ],
+    "group": "class_013",
+    "author": "user_0003",
+    "upvotes": 5,
+    "downvotes": 2,
+    "created": "2025-11-11T17:23:57.950503Z",
+    "_expanded": {
+      "group": {
+        "id": "class_013",
+        "name": "MATH350: Differential Equations",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_017",
+    "title": "PHYS101 Practice Problems",
+    "description": "Helpful practice problems for General Physics I. Covers key concepts and formulas.",
+    "type": "practice_problems",
+    "tags": [
+      "phys",
+      "101",
+      "practice_problems"
+    ],
+    "group": "class_014",
+    "author": "user_0040",
+    "upvotes": 24,
+    "downvotes": 1,
+    "created": "2025-11-07T17:23:57.950535Z",
+    "_expanded": {
+      "group": {
+        "id": "class_014",
+        "name": "PHYS101: General Physics I",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_018",
+    "title": "PHYS101 Notes",
+    "description": "Helpful notes for General Physics I. Covers key concepts and formulas.",
+    "type": "notes",
+    "tags": [
+      "phys",
+      "101",
+      "notes"
+    ],
+    "group": "class_014",
+    "author": "user_0027",
+    "upvotes": 8,
+    "downvotes": 1,
+    "created": "2025-10-16T17:23:57.950539Z",
+    "_expanded": {
+      "group": {
+        "id": "class_014",
+        "name": "PHYS101: General Physics I",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_019",
+    "title": "PHYS102 Notes",
+    "description": "Helpful notes for General Physics II. Covers key concepts and formulas.",
+    "type": "notes",
+    "tags": [
+      "phys",
+      "102",
+      "notes"
+    ],
+    "group": "class_015",
+    "author": "user_0038",
+    "upvotes": 38,
+    "downvotes": 0,
+    "created": "2025-11-14T17:23:57.950567Z",
+    "_expanded": {
+      "group": {
+        "id": "class_015",
+        "name": "PHYS102: General Physics II",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_020",
+    "title": "PHYS301 Cheat Sheet",
+    "description": "Helpful cheat sheet for Quantum Mechanics. Covers key concepts and formulas.",
+    "type": "cheat_sheet",
+    "tags": [
+      "phys",
+      "301",
+      "cheat_sheet"
+    ],
+    "group": "class_016",
+    "author": "user_0040",
+    "upvotes": 45,
+    "downvotes": 5,
+    "created": "2025-11-12T17:23:57.950590Z",
+    "_expanded": {
+      "group": {
+        "id": "class_016",
+        "name": "PHYS301: Quantum Mechanics",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_021",
+    "title": "PHYS301 Summary",
+    "description": "Helpful summary for Quantum Mechanics. Covers key concepts and formulas.",
+    "type": "summary",
+    "tags": [
+      "phys",
+      "301",
+      "summary"
+    ],
+    "group": "class_016",
+    "author": "user_0020",
+    "upvotes": 69,
+    "downvotes": 2,
+    "created": "2025-09-03T17:23:57.950620Z",
+    "_expanded": {
+      "group": {
+        "id": "class_016",
+        "name": "PHYS301: Quantum Mechanics",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_022",
+    "title": "PHYS350 Practice Problems",
+    "description": "Helpful practice problems for Statistical Mechanics. Covers key concepts and formulas.",
+    "type": "practice_problems",
+    "tags": [
+      "phys",
+      "350",
+      "practice_problems"
+    ],
+    "group": "class_017",
+    "author": "user_0044",
+    "upvotes": 32,
+    "downvotes": 4,
+    "created": "2025-09-28T17:23:57.950642Z",
+    "_expanded": {
+      "group": {
+        "id": "class_017",
+        "name": "PHYS350: Statistical Mechanics",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_023",
+    "title": "BIOL101 Practice Problems",
+    "description": "Helpful practice problems for Introduction to Biology. Covers key concepts and formulas.",
+    "type": "practice_problems",
+    "tags": [
+      "biol",
+      "101",
+      "practice_problems"
+    ],
+    "group": "class_018",
+    "author": "user_0032",
+    "upvotes": 56,
+    "downvotes": 1,
+    "created": "2025-11-09T17:23:57.950672Z",
+    "_expanded": {
+      "group": {
+        "id": "class_018",
+        "name": "BIOL101: Introduction to Biology",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_024",
+    "title": "BIOL101 Summary",
+    "description": "Helpful summary for Introduction to Biology. Covers key concepts and formulas.",
+    "type": "summary",
+    "tags": [
+      "biol",
+      "101",
+      "summary"
+    ],
+    "group": "class_018",
+    "author": "user_0045",
+    "upvotes": 5,
+    "downvotes": 0,
+    "created": "2025-10-04T17:23:57.950677Z",
+    "_expanded": {
+      "group": {
+        "id": "class_018",
+        "name": "BIOL101: Introduction to Biology",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_025",
+    "title": "BIOL201 Cheat Sheet",
+    "description": "Helpful cheat sheet for Genetics. Covers key concepts and formulas.",
+    "type": "cheat_sheet",
+    "tags": [
+      "biol",
+      "201",
+      "cheat_sheet"
+    ],
+    "group": "class_019",
+    "author": "user_0016",
+    "upvotes": 39,
+    "downvotes": 2,
+    "created": "2025-10-18T17:23:57.950707Z",
+    "_expanded": {
+      "group": {
+        "id": "class_019",
+        "name": "BIOL201: Genetics",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_026",
+    "title": "BIOL201 Lecture Notes",
+    "description": "Helpful lecture notes for Genetics. Covers key concepts and formulas.",
+    "type": "lecture_notes",
+    "tags": [
+      "biol",
+      "201",
+      "lecture_notes"
+    ],
+    "group": "class_019",
+    "author": "user_0006",
+    "upvotes": 22,
+    "downvotes": 1,
+    "created": "2025-10-29T17:23:57.950712Z",
+    "_expanded": {
+      "group": {
+        "id": "class_019",
+        "name": "BIOL201: Genetics",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_027",
+    "title": "BIOL301 Practice Problems",
+    "description": "Helpful practice problems for Biochemistry. Covers key concepts and formulas.",
+    "type": "practice_problems",
+    "tags": [
+      "biol",
+      "301",
+      "practice_problems"
+    ],
+    "group": "class_020",
+    "author": "user_0050",
+    "upvotes": 79,
+    "downvotes": 5,
+    "created": "2025-11-25T17:23:57.950725Z",
+    "_expanded": {
+      "group": {
+        "id": "class_020",
+        "name": "BIOL301: Biochemistry",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_028",
+    "title": "BIOL350 Study Guide",
+    "description": "Helpful study guide for Neuroscience. Covers key concepts and formulas.",
+    "type": "study_guide",
+    "tags": [
+      "biol",
+      "350",
+      "study_guide"
+    ],
+    "group": "class_021",
+    "author": "user_0026",
+    "upvotes": 80,
+    "downvotes": 4,
+    "created": "2025-09-04T17:23:57.950747Z",
+    "_expanded": {
+      "group": {
+        "id": "class_021",
+        "name": "BIOL350: Neuroscience",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_029",
+    "title": "BIOL350 Study Guide",
+    "description": "Helpful study guide for Neuroscience. Covers key concepts and formulas.",
+    "type": "study_guide",
+    "tags": [
+      "biol",
+      "350",
+      "study_guide"
+    ],
+    "group": "class_021",
+    "author": "user_0006",
+    "upvotes": 59,
+    "downvotes": 1,
+    "created": "2025-09-29T17:23:57.950751Z",
+    "_expanded": {
+      "group": {
+        "id": "class_021",
+        "name": "BIOL350: Neuroscience",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "resource_030",
+    "title": "ENG301 Practice Problems",
+    "description": "Helpful practice problems for Creative Writing. Covers key concepts and formulas.",
+    "type": "practice_problems",
+    "tags": [
+      "eng",
+      "301",
+      "practice_problems"
+    ],
+    "group": "class_024",
+    "author": "user_0007",
+    "upvotes": 60,
+    "downvotes": 2,
+    "created": "2025-09-07T17:23:57.950807Z",
+    "_expanded": {
+      "group": {
+        "id": "class_024",
+        "name": "ENG301: Creative Writing",
+        "type": "class"
+      }
+    }
+  }
+]

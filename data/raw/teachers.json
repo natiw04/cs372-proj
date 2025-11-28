@@ -1,0 +1,192 @@
+[
+  {
+    "id": "teacher_001",
+    "name": "Dr. Sarah Singh",
+    "bio": "Professor of Computer Science with expertise in various areas of the field.",
+    "research_description": "My research focuses on advancing knowledge in computer science through innovative approaches.",
+    "classes": [
+      "class_001",
+      "class_007"
+    ],
+    "majors": [
+      "computer_science"
+    ],
+    "avg_rating": 3.6,
+    "review_count": 77,
+    "created": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "teacher_002",
+    "name": "Dr. Emily Singh",
+    "bio": "Professor of Computer Science with expertise in various areas of the field.",
+    "research_description": "My research focuses on advancing knowledge in computer science through innovative approaches.",
+    "classes": [
+      "class_002",
+      "class_003",
+      "class_004",
+      "class_005",
+      "class_006"
+    ],
+    "majors": [
+      "computer_science"
+    ],
+    "avg_rating": 3.2,
+    "review_count": 159,
+    "created": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "teacher_003",
+    "name": "Dr. Maria Thompson",
+    "bio": "Professor of Mathematics with expertise in various areas of the field.",
+    "research_description": "My research focuses on advancing knowledge in mathematics through innovative approaches.",
+    "classes": [
+      "class_008",
+      "class_010"
+    ],
+    "majors": [
+      "mathematics"
+    ],
+    "avg_rating": 4.5,
+    "review_count": 196,
+    "created": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "teacher_004",
+    "name": "Dr. Maria Kim",
+    "bio": "Professor of Mathematics with expertise in various areas of the field.",
+    "research_description": "My research focuses on advancing knowledge in mathematics through innovative approaches.",
+    "classes": [
+      "class_011",
+      "class_012",
+      "class_013"
+    ],
+    "majors": [
+      "mathematics"
+    ],
+    "avg_rating": 3.6,
+    "review_count": 191,
+    "created": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "teacher_005",
+    "name": "Dr. Christopher Jackson",
+    "bio": "Professor of Mathematics with expertise in various areas of the field.",
+    "research_description": "My research focuses on advancing knowledge in mathematics through innovative approaches.",
+    "classes": [
+      "class_009"
+    ],
+    "majors": [
+      "mathematics"
+    ],
+    "avg_rating": 4.8,
+    "review_count": 135,
+    "created": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "teacher_006",
+    "name": "Dr. James Singh",
+    "bio": "Professor of Physics with expertise in various areas of the field.",
+    "research_description": "My research focuses on advancing knowledge in physics through innovative approaches.",
+    "classes": [],
+    "majors": [
+      "physics"
+    ],
+    "avg_rating": 3.9,
+    "review_count": 200,
+    "created": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "teacher_007",
+    "name": "Dr. Thomas Thompson",
+    "bio": "Professor of Physics with expertise in various areas of the field.",
+    "research_description": "My research focuses on advancing knowledge in physics through innovative approaches.",
+    "classes": [
+      "class_015",
+      "class_017"
+    ],
+    "majors": [
+      "physics"
+    ],
+    "avg_rating": 3.0,
+    "review_count": 39,
+    "created": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "teacher_008",
+    "name": "Dr. Emily Thompson",
+    "bio": "Professor of Physics with expertise in various areas of the field.",
+    "research_description": "My research focuses on advancing knowledge in physics through innovative approaches.",
+    "classes": [
+      "class_014",
+      "class_016"
+    ],
+    "majors": [
+      "physics"
+    ],
+    "avg_rating": 3.1,
+    "review_count": 114,
+    "created": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "teacher_009",
+    "name": "Dr. Jennifer Martinez",
+    "bio": "Professor of Biology with expertise in various areas of the field.",
+    "research_description": "My research focuses on advancing knowledge in biology through innovative approaches.",
+    "classes": [
+      "class_019"
+    ],
+    "majors": [
+      "biology"
+    ],
+    "avg_rating": 4.0,
+    "review_count": 182,
+    "created": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "teacher_010",
+    "name": "Dr. Andrew Anderson",
+    "bio": "Professor of Biology with expertise in various areas of the field.",
+    "research_description": "My research focuses on advancing knowledge in biology through innovative approaches.",
+    "classes": [
+      "class_018",
+      "class_020",
+      "class_021"
+    ],
+    "majors": [
+      "biology"
+    ],
+    "avg_rating": 3.2,
+    "review_count": 80,
+    "created": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "teacher_011",
+    "name": "Dr. Michael Rodriguez",
+    "bio": "Professor of English with expertise in various areas of the field.",
+    "research_description": "My research focuses on advancing knowledge in english through innovative approaches.",
+    "classes": [],
+    "majors": [
+      "english"
+    ],
+    "avg_rating": 3.8,
+    "review_count": 74,
+    "created": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "teacher_012",
+    "name": "Dr. Ashley Anderson",
+    "bio": "Professor of English with expertise in various areas of the field.",
+    "research_description": "My research focuses on advancing knowledge in english through innovative approaches.",
+    "classes": [
+      "class_022",
+      "class_023",
+      "class_024"
+    ],
+    "majors": [
+      "english"
+    ],
+    "avg_rating": 3.7,
+    "review_count": 117,
+    "created": "2024-01-01T00:00:00Z"
+  }
+]

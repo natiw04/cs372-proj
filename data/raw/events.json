@@ -1,0 +1,567 @@
+[
+  {
+    "id": "event_001",
+    "title": "Guest Speaker: Jordan Chen",
+    "description": "Join us for a talk on data analysis by industry expert Morgan Taylor.",
+    "location": "Library",
+    "date_time": "2026-01-22T17:23:57.950834Z",
+    "duration": 120,
+    "host_group": "group_028",
+    "attendees": [
+      "user_0016",
+      "user_0049",
+      "user_0030",
+      "user_0037",
+      "user_0040",
+      "user_0043",
+      "user_0025",
+      "user_0022",
+      "user_0002",
+      "user_0032",
+      "user_0021",
+      "user_0012",
+      "user_0032",
+      "user_0014",
+      "user_0023",
+      "user_0017",
+      "user_0022"
+    ],
+    "free_food": false,
+    "tags": [
+      "speaker",
+      "lecture",
+      "professional",
+      "monthly"
+    ],
+    "created": "2025-11-05T17:23:57.950852Z",
+    "_expanded": {
+      "host_group": {
+        "id": "group_028",
+        "name": "Data Science Club",
+        "type": "org"
+      }
+    }
+  },
+  {
+    "id": "event_002",
+    "title": "Networking Night",
+    "description": "Connect with alumni and professionals in healthcare. Food and drinks provided!",
+    "location": "Library",
+    "date_time": "2025-12-27T17:23:57.950864Z",
+    "duration": 120,
+    "host_group": "group_025",
+    "attendees": [
+      "user_0026",
+      "user_0045",
+      "user_0016",
+      "user_0020",
+      "user_0043",
+      "user_0038",
+      "user_0024",
+      "user_0031",
+      "user_0036",
+      "user_0034"
+    ],
+    "free_food": false,
+    "tags": [
+      "networking",
+      "alumni",
+      "social",
+      "weekly"
+    ],
+    "created": "2025-11-04T17:23:57.950877Z",
+    "_expanded": {
+      "host_group": {
+        "id": "group_025",
+        "name": "Computer Science Club",
+        "type": "org"
+      }
+    }
+  },
+  {
+    "id": "event_003",
+    "title": "Engineering Society Social",
+    "description": "Casual hangout for CS Club members. Games, snacks, and good company!",
+    "location": "Science Center",
+    "date_time": "2026-01-16T17:23:57.950887Z",
+    "duration": 90,
+    "host_group": "group_027",
+    "attendees": [
+      "user_0018",
+      "user_0047",
+      "user_0038",
+      "user_0049",
+      "user_0034",
+      "user_0039",
+      "user_0019",
+      "user_0007",
+      "user_0013",
+      "user_0019",
+      "user_0015",
+      "user_0024",
+      "user_0012",
+      "user_0020",
+      "user_0001",
+      "user_0046",
+      "user_0035",
+      "user_0009"
+    ],
+    "free_food": false,
+    "tags": [
+      "social",
+      "club",
+      "fun",
+      "fall-2024"
+    ],
+    "created": "2025-11-26T17:23:57.950904Z",
+    "_expanded": {
+      "host_group": {
+        "id": "group_027",
+        "name": "Engineering Society",
+        "type": "org"
+      }
+    }
+  },
+  {
+    "id": "event_004",
+    "title": "Networking Night",
+    "description": "Connect with alumni and professionals in consulting. Food and drinks provided!",
+    "location": "Library",
+    "date_time": "2025-12-15T17:23:57.950911Z",
+    "duration": 60,
+    "host_group": "group_032",
+    "attendees": [
+      "user_0032",
+      "user_0005",
+      "user_0037",
+      "user_0041",
+      "user_0044",
+      "user_0004",
+      "user_0010",
+      "user_0010",
+      "user_0037",
+      "user_0020",
+      "user_0006",
+      "user_0016",
+      "user_0008",
+      "user_0036",
+      "user_0049"
+    ],
+    "free_food": false,
+    "tags": [
+      "networking",
+      "alumni",
+      "social",
+      "monthly"
+    ],
+    "created": "2025-11-08T17:23:57.950923Z",
+    "_expanded": {
+      "host_group": {
+        "id": "group_032",
+        "name": "Robotics Club",
+        "type": "org"
+      }
+    }
+  },
+  {
+    "id": "event_005",
+    "title": "Biology Study Session",
+    "description": "Group study session for English. We'll review key concepts and work through practice problems.",
+    "location": "Auditorium",
+    "date_time": "2026-01-16T17:23:57.950931Z",
+    "duration": 90,
+    "host_group": "group_028",
+    "attendees": [
+      "user_0043",
+      "user_0006",
+      "user_0011",
+      "user_0016",
+      "user_0012",
+      "user_0036",
+      "user_0005",
+      "user_0011",
+      "user_0001",
+      "user_0027",
+      "user_0029"
+    ],
+    "free_food": false,
+    "tags": [
+      "study",
+      "academic",
+      "group",
+      "monthly"
+    ],
+    "created": "2025-11-12T17:23:57.950941Z",
+    "_expanded": {
+      "host_group": {
+        "id": "group_028",
+        "name": "Data Science Club",
+        "type": "org"
+      }
+    }
+  },
+  {
+    "id": "event_006",
+    "title": "Networking Night",
+    "description": "Connect with alumni and professionals in startups. Food and drinks provided!",
+    "location": "Room 101",
+    "date_time": "2025-12-26T17:23:57.950948Z",
+    "duration": 90,
+    "host_group": "group_026",
+    "attendees": [
+      "user_0018",
+      "user_0010",
+      "user_0005",
+      "user_0004",
+      "user_0011",
+      "user_0020",
+      "user_0039"
+    ],
+    "free_food": false,
+    "tags": [
+      "networking",
+      "alumni",
+      "social",
+      "monthly"
+    ],
+    "created": "2025-10-29T17:23:57.951003Z",
+    "_expanded": {
+      "host_group": {
+        "id": "group_026",
+        "name": "Math Club",
+        "type": "org"
+      }
+    }
+  },
+  {
+    "id": "event_007",
+    "title": "Networking Night",
+    "description": "Connect with alumni and professionals in healthcare. Food and drinks provided!",
+    "location": "Coffee House",
+    "date_time": "2026-01-06T17:23:57.951023Z",
+    "duration": 120,
+    "host_group": "group_025",
+    "attendees": [
+      "user_0002",
+      "user_0006",
+      "user_0015",
+      "user_0044",
+      "user_0037",
+      "user_0038",
+      "user_0002",
+      "user_0049",
+      "user_0044",
+      "user_0018",
+      "user_0037"
+    ],
+    "free_food": true,
+    "tags": [
+      "networking",
+      "alumni",
+      "social",
+      "fall-2024"
+    ],
+    "created": "2025-11-12T17:23:57.951039Z",
+    "_expanded": {
+      "host_group": {
+        "id": "group_025",
+        "name": "Computer Science Club",
+        "type": "org"
+      }
+    }
+  },
+  {
+    "id": "event_008",
+    "title": "Research Symposium",
+    "description": "Undergraduate research presentations in Physics.",
+    "location": "Engineering Building",
+    "date_time": "2026-01-10T17:23:57.951047Z",
+    "duration": 120,
+    "host_group": "group_026",
+    "attendees": [
+      "user_0045",
+      "user_0032",
+      "user_0019",
+      "user_0043",
+      "user_0026",
+      "user_0049",
+      "user_0036",
+      "user_0003",
+      "user_0030",
+      "user_0006",
+      "user_0021",
+      "user_0017",
+      "user_0021",
+      "user_0008",
+      "user_0050",
+      "user_0026"
+    ],
+    "free_food": false,
+    "tags": [
+      "research",
+      "academic",
+      "presentation",
+      "fall-2024"
+    ],
+    "created": "2025-11-06T17:23:57.951059Z",
+    "_expanded": {
+      "host_group": {
+        "id": "group_026",
+        "name": "Math Club",
+        "type": "org"
+      }
+    }
+  },
+  {
+    "id": "event_009",
+    "title": "Research Symposium",
+    "description": "Undergraduate research presentations in Computer Science.",
+    "location": "Quad",
+    "date_time": "2025-12-07T17:23:57.951066Z",
+    "duration": 180,
+    "host_group": "group_029",
+    "attendees": [
+      "user_0002",
+      "user_0041",
+      "user_0039",
+      "user_0016",
+      "user_0046",
+      "user_0011"
+    ],
+    "free_food": false,
+    "tags": [
+      "research",
+      "academic",
+      "presentation",
+      "monthly"
+    ],
+    "created": "2025-11-27T17:23:57.951074Z",
+    "_expanded": {
+      "host_group": {
+        "id": "group_029",
+        "name": "Women in STEM",
+        "type": "org"
+      }
+    }
+  },
+  {
+    "id": "event_010",
+    "title": "Hackathon: social good",
+    "description": "24-hour coding competition. Build something awesome with health tech!",
+    "location": "Quad",
+    "date_time": "2025-12-29T17:23:57.951082Z",
+    "duration": 240,
+    "host_group": "group_028",
+    "attendees": [
+      "user_0025",
+      "user_0013",
+      "user_0039",
+      "user_0033",
+      "user_0048",
+      "user_0009",
+      "user_0005"
+    ],
+    "free_food": false,
+    "tags": [
+      "hackathon",
+      "coding",
+      "competition",
+      "weekly"
+    ],
+    "created": "2025-11-17T17:23:57.951094Z",
+    "_expanded": {
+      "host_group": {
+        "id": "group_028",
+        "name": "Data Science Club",
+        "type": "org"
+      }
+    }
+  },
+  {
+    "id": "event_011",
+    "title": "Networking Night",
+    "description": "Connect with alumni and professionals in healthcare. Food and drinks provided!",
+    "location": "Quad",
+    "date_time": "2026-01-03T17:23:57.951103Z",
+    "duration": 120,
+    "host_group": "group_031",
+    "attendees": [
+      "user_0045",
+      "user_0016",
+      "user_0037",
+      "user_0025",
+      "user_0015",
+      "user_0050",
+      "user_0027",
+      "user_0003",
+      "user_0021"
+    ],
+    "free_food": false,
+    "tags": [
+      "networking",
+      "alumni",
+      "social",
+      "weekly"
+    ],
+    "created": "2025-11-05T17:23:57.951111Z",
+    "_expanded": {
+      "host_group": {
+        "id": "group_031",
+        "name": "Student Government",
+        "type": "org"
+      }
+    }
+  },
+  {
+    "id": "event_012",
+    "title": "Hackathon: education",
+    "description": "24-hour coding competition. Build something awesome with health tech!",
+    "location": "Coffee House",
+    "date_time": "2025-11-29T17:23:57.951119Z",
+    "duration": 90,
+    "host_group": "group_027",
+    "attendees": [
+      "user_0031",
+      "user_0017",
+      "user_0022",
+      "user_0040",
+      "user_0045"
+    ],
+    "free_food": false,
+    "tags": [
+      "hackathon",
+      "coding",
+      "competition",
+      "monthly"
+    ],
+    "created": "2025-11-25T17:23:57.951127Z",
+    "_expanded": {
+      "host_group": {
+        "id": "group_027",
+        "name": "Engineering Society",
+        "type": "org"
+      }
+    }
+  },
+  {
+    "id": "event_013",
+    "title": "Math Club Social",
+    "description": "Casual hangout for CS Club members. Games, snacks, and good company!",
+    "location": "Auditorium",
+    "date_time": "2025-12-26T17:23:57.951136Z",
+    "duration": 60,
+    "host_group": "group_026",
+    "attendees": [
+      "user_0011",
+      "user_0045",
+      "user_0020",
+      "user_0002",
+      "user_0003",
+      "user_0021",
+      "user_0004",
+      "user_0019",
+      "user_0023",
+      "user_0024",
+      "user_0028",
+      "user_0010",
+      "user_0016",
+      "user_0034",
+      "user_0027",
+      "user_0037",
+      "user_0044"
+    ],
+    "free_food": true,
+    "tags": [
+      "social",
+      "club",
+      "fun",
+      "fall-2024"
+    ],
+    "created": "2025-11-22T17:23:57.951149Z",
+    "_expanded": {
+      "host_group": {
+        "id": "group_026",
+        "name": "Math Club",
+        "type": "org"
+      }
+    }
+  },
+  {
+    "id": "event_014",
+    "title": "Math Club Workshop",
+    "description": "Hands-on workshop covering data analysis. All skill levels welcome!",
+    "location": "Arts Building",
+    "date_time": "2026-01-25T17:23:57.951156Z",
+    "duration": 240,
+    "host_group": "group_032",
+    "attendees": [
+      "user_0005",
+      "user_0029",
+      "user_0023",
+      "user_0038",
+      "user_0020",
+      "user_0041",
+      "user_0028",
+      "user_0045"
+    ],
+    "free_food": false,
+    "tags": [
+      "workshop",
+      "learning",
+      "hands-on",
+      "weekly"
+    ],
+    "created": "2025-10-31T17:23:57.951166Z",
+    "_expanded": {
+      "host_group": {
+        "id": "group_032",
+        "name": "Robotics Club",
+        "type": "org"
+      }
+    }
+  },
+  {
+    "id": "event_015",
+    "title": "Networking Night",
+    "description": "Connect with alumni and professionals in consulting. Food and drinks provided!",
+    "location": "Room 204",
+    "date_time": "2025-12-16T17:23:57.951173Z",
+    "duration": 60,
+    "host_group": "group_025",
+    "attendees": [
+      "user_0019",
+      "user_0050",
+      "user_0015",
+      "user_0039",
+      "user_0023",
+      "user_0015",
+      "user_0041",
+      "user_0013",
+      "user_0040",
+      "user_0017",
+      "user_0044",
+      "user_0049",
+      "user_0047",
+      "user_0050",
+      "user_0043",
+      "user_0044",
+      "user_0009",
+      "user_0041"
+    ],
+    "free_food": true,
+    "tags": [
+      "networking",
+      "alumni",
+      "social",
+      "monthly"
+    ],
+    "created": "2025-11-07T17:23:57.951253Z",
+    "_expanded": {
+      "host_group": {
+        "id": "group_025",
+        "name": "Computer Science Club",
+        "type": "org"
+      }
+    }
+  }
+]

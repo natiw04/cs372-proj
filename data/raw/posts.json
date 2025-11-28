@@ -1,0 +1,254 @@
+[
+  {
+    "id": "post_001",
+    "title": "Internship advice needed",
+    "text_content": "I'm applying for tech internships. Any tips on standing out?",
+    "category": "social",
+    "tags": [
+      "internship",
+      "career",
+      "advice",
+      "english"
+    ],
+    "author": "user_0028",
+    "upvotes": 28,
+    "downvotes": 1,
+    "comment_count": 13,
+    "is_anonymous": false,
+    "created": "2025-10-05T17:23:57.951518Z"
+  },
+  {
+    "id": "post_002",
+    "title": "Professor recommendations for Biology",
+    "text_content": "Which professors would you recommend for Biology courses?",
+    "category": "career",
+    "tags": [
+      "professor",
+      "recommendation",
+      "question",
+      "biology"
+    ],
+    "author": "user_0024",
+    "upvotes": 9,
+    "downvotes": 5,
+    "comment_count": 29,
+    "is_anonymous": false,
+    "created": "2025-10-17T17:23:57.951543Z"
+  },
+  {
+    "id": "post_003",
+    "title": "Tips for Computer Science",
+    "text_content": "Here are some tips that helped me succeed in Computer Science:\n\n1. Get enough sleep\n2. Start assignments early\n3. Review before each class\n\nGood luck!",
+    "category": "social",
+    "tags": [
+      "tips",
+      "advice",
+      "academic",
+      "computer-science"
+    ],
+    "author": "user_0036",
+    "upvotes": 3,
+    "downvotes": 4,
+    "comment_count": 30,
+    "is_anonymous": false,
+    "created": "2025-10-08T17:23:57.951561Z"
+  },
+  {
+    "id": "post_004",
+    "title": "Computer Science project ideas?",
+    "text_content": "Need ideas for my Computer Science final project. What have you all done?",
+    "category": "academic",
+    "tags": [
+      "project",
+      "ideas",
+      "help",
+      "computer-science"
+    ],
+    "author": "user_0019",
+    "upvotes": 38,
+    "downvotes": 2,
+    "comment_count": 11,
+    "is_anonymous": true,
+    "created": "2025-10-04T17:23:57.951575Z"
+  },
+  {
+    "id": "post_005",
+    "title": "Mathematics project ideas?",
+    "text_content": "Need ideas for my Mathematics final project. What have you all done?",
+    "category": "career",
+    "tags": [
+      "project",
+      "ideas",
+      "help",
+      "mathematics"
+    ],
+    "author": "user_0008",
+    "upvotes": 48,
+    "downvotes": 2,
+    "comment_count": 18,
+    "is_anonymous": true,
+    "created": "2025-10-05T17:23:57.951586Z"
+  },
+  {
+    "id": "post_006",
+    "title": "Professor recommendations for English",
+    "text_content": "Which professors would you recommend for English courses?",
+    "category": "social",
+    "tags": [
+      "professor",
+      "recommendation",
+      "question",
+      "english"
+    ],
+    "author": "user_0018",
+    "upvotes": 44,
+    "downvotes": 2,
+    "comment_count": 29,
+    "is_anonymous": false,
+    "created": "2025-11-27T17:23:57.951601Z"
+  },
+  {
+    "id": "post_007",
+    "title": "Best resources for Mathematics?",
+    "text_content": "What are the best resources you've found for learning Mathematics? Books, videos, websites?",
+    "category": "social",
+    "tags": [
+      "resources",
+      "question",
+      "help",
+      "mathematics"
+    ],
+    "author": "user_0025",
+    "upvotes": 26,
+    "downvotes": 3,
+    "comment_count": 10,
+    "is_anonymous": true,
+    "created": "2025-11-23T17:23:57.951613Z"
+  },
+  {
+    "id": "post_008",
+    "title": "Best resources for Physics?",
+    "text_content": "What are the best resources you've found for learning Physics? Books, videos, websites?",
+    "category": "academic",
+    "tags": [
+      "resources",
+      "question",
+      "help",
+      "physics"
+    ],
+    "author": "user_0044",
+    "upvotes": 5,
+    "downvotes": 2,
+    "comment_count": 14,
+    "is_anonymous": false,
+    "created": "2025-10-11T17:23:57.951624Z"
+  },
+  {
+    "id": "post_009",
+    "title": "Internship advice needed",
+    "text_content": "I'm applying for startups internships. Any tips on standing out?",
+    "category": "career",
+    "tags": [
+      "internship",
+      "career",
+      "advice",
+      "english"
+    ],
+    "author": "user_0028",
+    "upvotes": 7,
+    "downvotes": 2,
+    "comment_count": 21,
+    "is_anonymous": false,
+    "created": "2025-11-21T17:23:57.951635Z"
+  },
+  {
+    "id": "post_010",
+    "title": "English project ideas?",
+    "text_content": "Need ideas for my English final project. What have you all done?",
+    "category": "academic",
+    "tags": [
+      "project",
+      "ideas",
+      "help",
+      "english"
+    ],
+    "author": "user_0014",
+    "upvotes": 19,
+    "downvotes": 1,
+    "comment_count": 24,
+    "is_anonymous": true,
+    "created": "2025-11-25T17:23:57.951646Z"
+  },
+  {
+    "id": "post_011",
+    "title": "Professor recommendations for Physics",
+    "text_content": "Which professors would you recommend for Physics courses?",
+    "category": "social",
+    "tags": [
+      "professor",
+      "recommendation",
+      "question",
+      "physics"
+    ],
+    "author": "user_0025",
+    "upvotes": 34,
+    "downvotes": 5,
+    "comment_count": 7,
+    "is_anonymous": false,
+    "created": "2025-11-17T17:23:57.951658Z"
+  },
+  {
+    "id": "post_012",
+    "title": "Physics project ideas?",
+    "text_content": "Need ideas for my Physics final project. What have you all done?",
+    "category": "academic",
+    "tags": [
+      "project",
+      "ideas",
+      "help",
+      "physics"
+    ],
+    "author": "user_0030",
+    "upvotes": 58,
+    "downvotes": 0,
+    "comment_count": 27,
+    "is_anonymous": false,
+    "created": "2025-11-01T17:23:57.951668Z"
+  },
+  {
+    "id": "post_013",
+    "title": "English project ideas?",
+    "text_content": "Need ideas for my English final project. What have you all done?",
+    "category": "career",
+    "tags": [
+      "project",
+      "ideas",
+      "help",
+      "english"
+    ],
+    "author": "user_0011",
+    "upvotes": 51,
+    "downvotes": 4,
+    "comment_count": 14,
+    "is_anonymous": false,
+    "created": "2025-11-27T17:23:57.951677Z"
+  },
+  {
+    "id": "post_014",
+    "title": "Best resources for Biology?",
+    "text_content": "What are the best resources you've found for learning Biology? Books, videos, websites?",
+    "category": "academic",
+    "tags": [
+      "resources",
+      "question",
+      "help",
+      "biology"
+    ],
+    "author": "user_0026",
+    "upvotes": 55,
+    "downvotes": 2,
+    "comment_count": 23,
+    "is_anonymous": false,
+    "created": "2025-10-26T17:23:57.951688Z"
+  }
+]

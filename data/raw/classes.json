@@ -1,0 +1,554 @@
+[
+  {
+    "id": "class_001",
+    "title": "CS101: Introduction to Programming",
+    "description": "Learn programming fundamentals using Python. Covers variables, loops, functions, and basic data structures.",
+    "teachers": [
+      "teacher_001"
+    ],
+    "majors": [
+      "computer_science"
+    ],
+    "avg_rating": 4.3,
+    "review_count": 34,
+    "created": "2024-01-01T00:00:00Z",
+    "_expanded": {
+      "teachers": [
+        {
+          "id": "teacher_001",
+          "name": "Dr. Sarah Singh",
+          "type": "teacher"
+        }
+      ]
+    }
+  },
+  {
+    "id": "class_002",
+    "title": "CS201: Data Structures",
+    "description": "Study of fundamental data structures including arrays, linked lists, trees, graphs, and hash tables.",
+    "teachers": [
+      "teacher_002"
+    ],
+    "majors": [
+      "computer_science"
+    ],
+    "avg_rating": 3.9,
+    "review_count": 49,
+    "created": "2024-01-01T00:00:00Z",
+    "_expanded": {
+      "teachers": [
+        {
+          "id": "teacher_002",
+          "name": "Dr. Emily Singh",
+          "type": "teacher"
+        }
+      ]
+    }
+  },
+  {
+    "id": "class_003",
+    "title": "CS301: Algorithms",
+    "description": "Design and analysis of algorithms. Covers sorting, searching, graph algorithms, and dynamic programming.",
+    "teachers": [
+      "teacher_002"
+    ],
+    "majors": [
+      "computer_science"
+    ],
+    "avg_rating": 3.6,
+    "review_count": 67,
+    "created": "2024-01-01T00:00:00Z",
+    "_expanded": {
+      "teachers": [
+        {
+          "id": "teacher_002",
+          "name": "Dr. Emily Singh",
+          "type": "teacher"
+        }
+      ]
+    }
+  },
+  {
+    "id": "class_004",
+    "title": "CS350: Database Systems",
+    "description": "Introduction to relational databases, SQL, normalization, and transaction processing.",
+    "teachers": [
+      "teacher_002"
+    ],
+    "majors": [
+      "computer_science"
+    ],
+    "avg_rating": 4.6,
+    "review_count": 129,
+    "created": "2024-01-01T00:00:00Z",
+    "_expanded": {
+      "teachers": [
+        {
+          "id": "teacher_002",
+          "name": "Dr. Emily Singh",
+          "type": "teacher"
+        }
+      ]
+    }
+  },
+  {
+    "id": "class_005",
+    "title": "CS401: Machine Learning",
+    "description": "Fundamentals of machine learning including supervised learning, unsupervised learning, and neural networks.",
+    "teachers": [
+      "teacher_002"
+    ],
+    "majors": [
+      "computer_science"
+    ],
+    "avg_rating": 4.7,
+    "review_count": 81,
+    "created": "2024-01-01T00:00:00Z",
+    "_expanded": {
+      "teachers": [
+        {
+          "id": "teacher_002",
+          "name": "Dr. Emily Singh",
+          "type": "teacher"
+        }
+      ]
+    }
+  },
+  {
+    "id": "class_006",
+    "title": "CS450: Software Engineering",
+    "description": "Principles of software development, agile methodologies, testing, and project management.",
+    "teachers": [
+      "teacher_002"
+    ],
+    "majors": [
+      "computer_science"
+    ],
+    "avg_rating": 4.5,
+    "review_count": 73,
+    "created": "2024-01-01T00:00:00Z",
+    "_expanded": {
+      "teachers": [
+        {
+          "id": "teacher_002",
+          "name": "Dr. Emily Singh",
+          "type": "teacher"
+        }
+      ]
+    }
+  },
+  {
+    "id": "class_007",
+    "title": "CS480: Artificial Intelligence",
+    "description": "Introduction to AI concepts including search, knowledge representation, and reasoning.",
+    "teachers": [
+      "teacher_001"
+    ],
+    "majors": [
+      "computer_science"
+    ],
+    "avg_rating": 4.3,
+    "review_count": 92,
+    "created": "2024-01-01T00:00:00Z",
+    "_expanded": {
+      "teachers": [
+        {
+          "id": "teacher_001",
+          "name": "Dr. Sarah Singh",
+          "type": "teacher"
+        }
+      ]
+    }
+  },
+  {
+    "id": "class_008",
+    "title": "MATH151: Calculus I",
+    "description": "Limits, derivatives, and integrals of single-variable functions.",
+    "teachers": [
+      "teacher_003"
+    ],
+    "majors": [
+      "mathematics"
+    ],
+    "avg_rating": 3.8,
+    "review_count": 38,
+    "created": "2024-01-01T00:00:00Z",
+    "_expanded": {
+      "teachers": [
+        {
+          "id": "teacher_003",
+          "name": "Dr. Maria Thompson",
+          "type": "teacher"
+        }
+      ]
+    }
+  },
+  {
+    "id": "class_009",
+    "title": "MATH152: Calculus II",
+    "description": "Integration techniques, sequences, series, and parametric equations.",
+    "teachers": [
+      "teacher_005"
+    ],
+    "majors": [
+      "mathematics"
+    ],
+    "avg_rating": 4.7,
+    "review_count": 103,
+    "created": "2024-01-01T00:00:00Z",
+    "_expanded": {
+      "teachers": [
+        {
+          "id": "teacher_005",
+          "name": "Dr. Christopher Jackson",
+          "type": "teacher"
+        }
+      ]
+    }
+  },
+  {
+    "id": "class_010",
+    "title": "MATH251: Multivariable Calculus",
+    "description": "Partial derivatives, multiple integrals, and vector calculus.",
+    "teachers": [
+      "teacher_003"
+    ],
+    "majors": [
+      "mathematics"
+    ],
+    "avg_rating": 4.3,
+    "review_count": 99,
+    "created": "2024-01-01T00:00:00Z",
+    "_expanded": {
+      "teachers": [
+        {
+          "id": "teacher_003",
+          "name": "Dr. Maria Thompson",
+          "type": "teacher"
+        }
+      ]
+    }
+  },
+  {
+    "id": "class_011",
+    "title": "MATH301: Linear Algebra",
+    "description": "Vector spaces, linear transformations, matrices, and eigenvalues.",
+    "teachers": [
+      "teacher_004"
+    ],
+    "majors": [
+      "mathematics"
+    ],
+    "avg_rating": 4.7,
+    "review_count": 130,
+    "created": "2024-01-01T00:00:00Z",
+    "_expanded": {
+      "teachers": [
+        {
+          "id": "teacher_004",
+          "name": "Dr. Maria Kim",
+          "type": "teacher"
+        }
+      ]
+    }
+  },
+  {
+    "id": "class_012",
+    "title": "MATH310: Probability Theory",
+    "description": "Probability spaces, random variables, and distributions.",
+    "teachers": [
+      "teacher_004"
+    ],
+    "majors": [
+      "mathematics"
+    ],
+    "avg_rating": 3.7,
+    "review_count": 143,
+    "created": "2024-01-01T00:00:00Z",
+    "_expanded": {
+      "teachers": [
+        {
+          "id": "teacher_004",
+          "name": "Dr. Maria Kim",
+          "type": "teacher"
+        }
+      ]
+    }
+  },
+  {
+    "id": "class_013",
+    "title": "MATH350: Differential Equations",
+    "description": "Ordinary differential equations and their applications.",
+    "teachers": [
+      "teacher_004"
+    ],
+    "majors": [
+      "mathematics"
+    ],
+    "avg_rating": 3.7,
+    "review_count": 136,
+    "created": "2024-01-01T00:00:00Z",
+    "_expanded": {
+      "teachers": [
+        {
+          "id": "teacher_004",
+          "name": "Dr. Maria Kim",
+          "type": "teacher"
+        }
+      ]
+    }
+  },
+  {
+    "id": "class_014",
+    "title": "PHYS101: General Physics I",
+    "description": "Mechanics, waves, and thermodynamics with calculus.",
+    "teachers": [
+      "teacher_008"
+    ],
+    "majors": [
+      "physics"
+    ],
+    "avg_rating": 4.2,
+    "review_count": 85,
+    "created": "2024-01-01T00:00:00Z",
+    "_expanded": {
+      "teachers": [
+        {
+          "id": "teacher_008",
+          "name": "Dr. Emily Thompson",
+          "type": "teacher"
+        }
+      ]
+    }
+  },
+  {
+    "id": "class_015",
+    "title": "PHYS102: General Physics II",
+    "description": "Electricity, magnetism, and optics.",
+    "teachers": [
+      "teacher_007"
+    ],
+    "majors": [
+      "physics"
+    ],
+    "avg_rating": 4.5,
+    "review_count": 140,
+    "created": "2024-01-01T00:00:00Z",
+    "_expanded": {
+      "teachers": [
+        {
+          "id": "teacher_007",
+          "name": "Dr. Thomas Thompson",
+          "type": "teacher"
+        }
+      ]
+    }
+  },
+  {
+    "id": "class_016",
+    "title": "PHYS301: Quantum Mechanics",
+    "description": "Introduction to quantum theory and wave mechanics.",
+    "teachers": [
+      "teacher_008"
+    ],
+    "majors": [
+      "physics"
+    ],
+    "avg_rating": 4.1,
+    "review_count": 123,
+    "created": "2024-01-01T00:00:00Z",
+    "_expanded": {
+      "teachers": [
+        {
+          "id": "teacher_008",
+          "name": "Dr. Emily Thompson",
+          "type": "teacher"
+        }
+      ]
+    }
+  },
+  {
+    "id": "class_017",
+    "title": "PHYS350: Statistical Mechanics",
+    "description": "Statistical methods in physics and thermodynamics.",
+    "teachers": [
+      "teacher_007"
+    ],
+    "majors": [
+      "physics"
+    ],
+    "avg_rating": 3.9,
+    "review_count": 119,
+    "created": "2024-01-01T00:00:00Z",
+    "_expanded": {
+      "teachers": [
+        {
+          "id": "teacher_007",
+          "name": "Dr. Thomas Thompson",
+          "type": "teacher"
+        }
+      ]
+    }
+  },
+  {
+    "id": "class_018",
+    "title": "BIOL101: Introduction to Biology",
+    "description": "Cell biology, genetics, and evolution.",
+    "teachers": [
+      "teacher_010"
+    ],
+    "majors": [
+      "biology"
+    ],
+    "avg_rating": 3.8,
+    "review_count": 55,
+    "created": "2024-01-01T00:00:00Z",
+    "_expanded": {
+      "teachers": [
+        {
+          "id": "teacher_010",
+          "name": "Dr. Andrew Anderson",
+          "type": "teacher"
+        }
+      ]
+    }
+  },
+  {
+    "id": "class_019",
+    "title": "BIOL201: Genetics",
+    "description": "Principles of heredity and molecular genetics.",
+    "teachers": [
+      "teacher_009"
+    ],
+    "majors": [
+      "biology"
+    ],
+    "avg_rating": 3.7,
+    "review_count": 119,
+    "created": "2024-01-01T00:00:00Z",
+    "_expanded": {
+      "teachers": [
+        {
+          "id": "teacher_009",
+          "name": "Dr. Jennifer Martinez",
+          "type": "teacher"
+        }
+      ]
+    }
+  },
+  {
+    "id": "class_020",
+    "title": "BIOL301: Biochemistry",
+    "description": "Chemical processes within living organisms.",
+    "teachers": [
+      "teacher_010"
+    ],
+    "majors": [
+      "biology"
+    ],
+    "avg_rating": 4.4,
+    "review_count": 120,
+    "created": "2024-01-01T00:00:00Z",
+    "_expanded": {
+      "teachers": [
+        {
+          "id": "teacher_010",
+          "name": "Dr. Andrew Anderson",
+          "type": "teacher"
+        }
+      ]
+    }
+  },
+  {
+    "id": "class_021",
+    "title": "BIOL350: Neuroscience",
+    "description": "Structure and function of the nervous system.",
+    "teachers": [
+      "teacher_010"
+    ],
+    "majors": [
+      "biology"
+    ],
+    "avg_rating": 4.1,
+    "review_count": 150,
+    "created": "2024-01-01T00:00:00Z",
+    "_expanded": {
+      "teachers": [
+        {
+          "id": "teacher_010",
+          "name": "Dr. Andrew Anderson",
+          "type": "teacher"
+        }
+      ]
+    }
+  },
+  {
+    "id": "class_022",
+    "title": "ENG101: Composition I",
+    "description": "Academic writing and critical thinking.",
+    "teachers": [
+      "teacher_012"
+    ],
+    "majors": [
+      "english"
+    ],
+    "avg_rating": 4.5,
+    "review_count": 136,
+    "created": "2024-01-01T00:00:00Z",
+    "_expanded": {
+      "teachers": [
+        {
+          "id": "teacher_012",
+          "name": "Dr. Ashley Anderson",
+          "type": "teacher"
+        }
+      ]
+    }
+  },
+  {
+    "id": "class_023",
+    "title": "ENG201: American Literature",
+    "description": "Survey of American literary traditions.",
+    "teachers": [
+      "teacher_012"
+    ],
+    "majors": [
+      "english"
+    ],
+    "avg_rating": 4.4,
+    "review_count": 102,
+    "created": "2024-01-01T00:00:00Z",
+    "_expanded": {
+      "teachers": [
+        {
+          "id": "teacher_012",
+          "name": "Dr. Ashley Anderson",
+          "type": "teacher"
+        }
+      ]
+    }
+  },
+  {
+    "id": "class_024",
+    "title": "ENG301: Creative Writing",
+    "description": "Fiction, poetry, and creative nonfiction.",
+    "teachers": [
+      "teacher_012"
+    ],
+    "majors": [
+      "english"
+    ],
+    "avg_rating": 4.2,
+    "review_count": 146,
+    "created": "2024-01-01T00:00:00Z",
+    "_expanded": {
+      "teachers": [
+        {
+          "id": "teacher_012",
+          "name": "Dr. Ashley Anderson",
+          "type": "teacher"
+        }
+      ]
+    }
+  }
+]

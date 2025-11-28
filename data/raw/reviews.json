@@ -1,0 +1,970 @@
+[
+  {
+    "id": "review_001",
+    "group": "class_001",
+    "author": "user_0039",
+    "rating": 2.3,
+    "comment": "Not a great experience. The workload was overwhelming and feedback was minimal.",
+    "rating_fields": {
+      "clarity": 2,
+      "helpfulness": 3,
+      "workload": 5
+    },
+    "is_anonymous": false,
+    "helpful_count": 7,
+    "created": "2025-07-21T17:23:57.949829Z",
+    "_expanded": {
+      "group": {
+        "id": "class_001",
+        "name": "CS101: Introduction to Programming",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_002",
+    "group": "class_002",
+    "author": "user_0006",
+    "rating": 4.9,
+    "comment": "Highly recommend! The workload is manageable and Dr. Emily Singh is very supportive.",
+    "rating_fields": {
+      "clarity": 5,
+      "helpfulness": 2,
+      "workload": 3
+    },
+    "is_anonymous": false,
+    "helpful_count": 19,
+    "created": "2025-11-01T17:23:57.950190Z",
+    "_expanded": {
+      "group": {
+        "id": "class_002",
+        "name": "CS201: Data Structures",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_003",
+    "group": "class_003",
+    "author": "user_0013",
+    "rating": 3.9,
+    "comment": "Dr. Emily Singh is knowledgeable but could be more engaging in lectures.",
+    "rating_fields": {
+      "clarity": 2,
+      "helpfulness": 2,
+      "workload": 2
+    },
+    "is_anonymous": false,
+    "helpful_count": 2,
+    "created": "2025-07-03T17:23:57.950216Z",
+    "_expanded": {
+      "group": {
+        "id": "class_003",
+        "name": "CS301: Algorithms",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_004",
+    "group": "class_003",
+    "author": "user_0025",
+    "rating": 4.6,
+    "comment": "Love this class! Dr. Emily Singh uses real-world examples that make algorithms click.",
+    "rating_fields": {
+      "clarity": 4,
+      "helpfulness": 5,
+      "workload": 3
+    },
+    "is_anonymous": true,
+    "helpful_count": 11,
+    "created": "2025-11-02T17:23:57.950224Z",
+    "_expanded": {
+      "group": {
+        "id": "class_003",
+        "name": "CS301: Algorithms",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_005",
+    "group": "class_003",
+    "author": "user_0045",
+    "rating": 3.1,
+    "comment": "Standard algorithms class. Nothing exceptional but gets the job done.",
+    "rating_fields": {
+      "clarity": 2,
+      "helpfulness": 3,
+      "workload": 5
+    },
+    "is_anonymous": true,
+    "helpful_count": 5,
+    "created": "2025-09-20T17:23:57.950231Z",
+    "_expanded": {
+      "group": {
+        "id": "class_003",
+        "name": "CS301: Algorithms",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_006",
+    "group": "class_004",
+    "author": "user_0026",
+    "rating": 2.7,
+    "comment": "Struggled in this class. Dr. Emily Singh's explanations of database systems were confusing.",
+    "rating_fields": {
+      "clarity": 4,
+      "helpfulness": 2,
+      "workload": 2
+    },
+    "is_anonymous": false,
+    "helpful_count": 6,
+    "created": "2025-09-08T17:23:57.950254Z",
+    "_expanded": {
+      "group": {
+        "id": "class_004",
+        "name": "CS350: Database Systems",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_007",
+    "group": "class_005",
+    "author": "user_0032",
+    "rating": 2.7,
+    "comment": "Not a great experience. The workload was overwhelming and feedback was minimal.",
+    "rating_fields": {
+      "clarity": 2,
+      "helpfulness": 2,
+      "workload": 1
+    },
+    "is_anonymous": true,
+    "helpful_count": 20,
+    "created": "2025-07-20T17:23:57.950276Z",
+    "_expanded": {
+      "group": {
+        "id": "class_005",
+        "name": "CS401: Machine Learning",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_008",
+    "group": "class_005",
+    "author": "user_0005",
+    "rating": 2.5,
+    "comment": "Lectures were hard to follow. Had to learn most of machine learning from the textbook.",
+    "rating_fields": {
+      "clarity": 5,
+      "helpfulness": 5,
+      "workload": 5
+    },
+    "is_anonymous": false,
+    "helpful_count": 16,
+    "created": "2025-06-28T17:23:57.950284Z",
+    "_expanded": {
+      "group": {
+        "id": "class_005",
+        "name": "CS401: Machine Learning",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_009",
+    "group": "class_006",
+    "author": "user_0001",
+    "rating": 2.9,
+    "comment": "Not a great experience. The workload was overwhelming and feedback was minimal.",
+    "rating_fields": {
+      "clarity": 4,
+      "helpfulness": 3,
+      "workload": 5
+    },
+    "is_anonymous": true,
+    "helpful_count": 27,
+    "created": "2025-08-03T17:23:57.950300Z",
+    "_expanded": {
+      "group": {
+        "id": "class_006",
+        "name": "CS450: Software Engineering",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_010",
+    "group": "class_007",
+    "author": "user_0016",
+    "rating": 2.3,
+    "comment": "Dr. Sarah Singh seems uninterested in teaching. artificial intelligence deserves better.",
+    "rating_fields": {
+      "clarity": 2,
+      "helpfulness": 3,
+      "workload": 5
+    },
+    "is_anonymous": true,
+    "helpful_count": 2,
+    "created": "2025-09-10T17:23:57.950322Z",
+    "_expanded": {
+      "group": {
+        "id": "class_007",
+        "name": "CS480: Artificial Intelligence",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_011",
+    "group": "class_008",
+    "author": "user_0038",
+    "rating": 2.1,
+    "comment": "Would not recommend unless you have to take it. Dr. Maria Thompson grades harshly.",
+    "rating_fields": {
+      "clarity": 3,
+      "helpfulness": 2,
+      "workload": 1
+    },
+    "is_anonymous": true,
+    "helpful_count": 7,
+    "created": "2025-09-30T17:23:57.950356Z",
+    "_expanded": {
+      "group": {
+        "id": "class_008",
+        "name": "MATH151: Calculus I",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_012",
+    "group": "class_008",
+    "author": "user_0005",
+    "rating": 2.2,
+    "comment": "Struggled in this class. Dr. Maria Thompson's explanations of calculus i were confusing.",
+    "rating_fields": {
+      "clarity": 3,
+      "helpfulness": 4,
+      "workload": 4
+    },
+    "is_anonymous": true,
+    "helpful_count": 17,
+    "created": "2025-09-04T17:23:57.950363Z",
+    "_expanded": {
+      "group": {
+        "id": "class_008",
+        "name": "MATH151: Calculus I",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_013",
+    "group": "class_009",
+    "author": "user_0013",
+    "rating": 3.4,
+    "comment": "The course covers important calculus ii concepts. Exams are fair.",
+    "rating_fields": {
+      "clarity": 2,
+      "helpfulness": 2,
+      "workload": 4
+    },
+    "is_anonymous": false,
+    "helpful_count": 13,
+    "created": "2025-08-15T17:23:57.950376Z",
+    "_expanded": {
+      "group": {
+        "id": "class_009",
+        "name": "MATH152: Calculus II",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_014",
+    "group": "class_009",
+    "author": "user_0044",
+    "rating": 3.2,
+    "comment": "Standard calculus ii class. Nothing exceptional but gets the job done.",
+    "rating_fields": {
+      "clarity": 2,
+      "helpfulness": 2,
+      "workload": 4
+    },
+    "is_anonymous": false,
+    "helpful_count": 25,
+    "created": "2025-11-14T17:23:57.950383Z",
+    "_expanded": {
+      "group": {
+        "id": "class_009",
+        "name": "MATH152: Calculus II",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_015",
+    "group": "class_009",
+    "author": "user_0013",
+    "rating": 4.6,
+    "comment": "One of the best classes I've taken. Dr. Christopher Jackson makes calculus ii interesting and engaging.",
+    "rating_fields": {
+      "clarity": 5,
+      "helpfulness": 3,
+      "workload": 4
+    },
+    "is_anonymous": true,
+    "helpful_count": 8,
+    "created": "2025-10-09T17:23:57.950389Z",
+    "_expanded": {
+      "group": {
+        "id": "class_009",
+        "name": "MATH152: Calculus II",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_016",
+    "group": "class_010",
+    "author": "user_0011",
+    "rating": 4.9,
+    "comment": "Love this class! Dr. Maria Thompson uses real-world examples that make multivariable calculus click.",
+    "rating_fields": {
+      "clarity": 5,
+      "helpfulness": 5,
+      "workload": 4
+    },
+    "is_anonymous": true,
+    "helpful_count": 27,
+    "created": "2025-09-28T17:23:57.950410Z",
+    "_expanded": {
+      "group": {
+        "id": "class_010",
+        "name": "MATH251: Multivariable Calculus",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_017",
+    "group": "class_011",
+    "author": "user_0046",
+    "rating": 2.9,
+    "comment": "Would not recommend unless you have to take it. Dr. Maria Kim grades harshly.",
+    "rating_fields": {
+      "clarity": 5,
+      "helpfulness": 3,
+      "workload": 2
+    },
+    "is_anonymous": false,
+    "helpful_count": 6,
+    "created": "2025-06-11T17:23:57.950426Z",
+    "_expanded": {
+      "group": {
+        "id": "class_011",
+        "name": "MATH301: Linear Algebra",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_018",
+    "group": "class_011",
+    "author": "user_0004",
+    "rating": 4.9,
+    "comment": "Great course! Learned so much about linear algebra. Dr. Maria Kim provides excellent feedback.",
+    "rating_fields": {
+      "clarity": 4,
+      "helpfulness": 2,
+      "workload": 1
+    },
+    "is_anonymous": false,
+    "helpful_count": 16,
+    "created": "2025-07-12T17:23:57.950433Z",
+    "_expanded": {
+      "group": {
+        "id": "class_011",
+        "name": "MATH301: Linear Algebra",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_019",
+    "group": "class_012",
+    "author": "user_0040",
+    "rating": 2.7,
+    "comment": "Would not recommend unless you have to take it. Dr. Maria Kim grades harshly.",
+    "rating_fields": {
+      "clarity": 2,
+      "helpfulness": 5,
+      "workload": 5
+    },
+    "is_anonymous": false,
+    "helpful_count": 29,
+    "created": "2025-11-17T17:23:57.950451Z",
+    "_expanded": {
+      "group": {
+        "id": "class_012",
+        "name": "MATH310: Probability Theory",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_020",
+    "group": "class_012",
+    "author": "user_0017",
+    "rating": 2.8,
+    "comment": "Dr. Maria Kim seems uninterested in teaching. probability theory deserves better.",
+    "rating_fields": {
+      "clarity": 5,
+      "helpfulness": 3,
+      "workload": 3
+    },
+    "is_anonymous": false,
+    "helpful_count": 10,
+    "created": "2025-09-27T17:23:57.950459Z",
+    "_expanded": {
+      "group": {
+        "id": "class_012",
+        "name": "MATH310: Probability Theory",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_021",
+    "group": "class_012",
+    "author": "user_0030",
+    "rating": 4.8,
+    "comment": "Excellent professor! Dr. Maria Kim explains concepts clearly and is always available during office hours.",
+    "rating_fields": {
+      "clarity": 2,
+      "helpfulness": 2,
+      "workload": 5
+    },
+    "is_anonymous": true,
+    "helpful_count": 16,
+    "created": "2025-11-25T17:23:57.950465Z",
+    "_expanded": {
+      "group": {
+        "id": "class_012",
+        "name": "MATH310: Probability Theory",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_022",
+    "group": "class_013",
+    "author": "user_0034",
+    "rating": 4.1,
+    "comment": "Great course! Learned so much about differential equations. Dr. Maria Kim provides excellent feedback.",
+    "rating_fields": {
+      "clarity": 2,
+      "helpfulness": 4,
+      "workload": 1
+    },
+    "is_anonymous": true,
+    "helpful_count": 8,
+    "created": "2025-06-13T17:23:57.950481Z",
+    "_expanded": {
+      "group": {
+        "id": "class_013",
+        "name": "MATH350: Differential Equations",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_023",
+    "group": "class_013",
+    "author": "user_0010",
+    "rating": 2.3,
+    "comment": "Struggled in this class. Dr. Maria Kim's explanations of differential equations were confusing.",
+    "rating_fields": {
+      "clarity": 4,
+      "helpfulness": 4,
+      "workload": 5
+    },
+    "is_anonymous": true,
+    "helpful_count": 22,
+    "created": "2025-07-09T17:23:57.950487Z",
+    "_expanded": {
+      "group": {
+        "id": "class_013",
+        "name": "MATH350: Differential Equations",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_024",
+    "group": "class_013",
+    "author": "user_0017",
+    "rating": 3.0,
+    "comment": "Standard differential equations class. Nothing exceptional but gets the job done.",
+    "rating_fields": {
+      "clarity": 5,
+      "helpfulness": 4,
+      "workload": 1
+    },
+    "is_anonymous": true,
+    "helpful_count": 20,
+    "created": "2025-06-18T17:23:57.950493Z",
+    "_expanded": {
+      "group": {
+        "id": "class_013",
+        "name": "MATH350: Differential Equations",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_025",
+    "group": "class_014",
+    "author": "user_0023",
+    "rating": 2.1,
+    "comment": "Dr. Emily Thompson seems uninterested in teaching. general physics i deserves better.",
+    "rating_fields": {
+      "clarity": 3,
+      "helpfulness": 3,
+      "workload": 1
+    },
+    "is_anonymous": false,
+    "helpful_count": 24,
+    "created": "2025-11-17T17:23:57.950523Z",
+    "_expanded": {
+      "group": {
+        "id": "class_014",
+        "name": "PHYS101: General Physics I",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_026",
+    "group": "class_015",
+    "author": "user_0045",
+    "rating": 4.4,
+    "comment": "Highly recommend! The workload is manageable and Dr. Thomas Thompson is very supportive.",
+    "rating_fields": {
+      "clarity": 2,
+      "helpfulness": 5,
+      "workload": 1
+    },
+    "is_anonymous": false,
+    "helpful_count": 7,
+    "created": "2025-10-18T17:23:57.950547Z",
+    "_expanded": {
+      "group": {
+        "id": "class_015",
+        "name": "PHYS102: General Physics II",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_027",
+    "group": "class_015",
+    "author": "user_0020",
+    "rating": 2.6,
+    "comment": "Lectures were hard to follow. Had to learn most of general physics ii from the textbook.",
+    "rating_fields": {
+      "clarity": 3,
+      "helpfulness": 3,
+      "workload": 1
+    },
+    "is_anonymous": true,
+    "helpful_count": 12,
+    "created": "2025-08-30T17:23:57.950553Z",
+    "_expanded": {
+      "group": {
+        "id": "class_015",
+        "name": "PHYS102: General Physics II",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_028",
+    "group": "class_015",
+    "author": "user_0023",
+    "rating": 3.0,
+    "comment": "Struggled in this class. Dr. Thomas Thompson's explanations of general physics ii were confusing.",
+    "rating_fields": {
+      "clarity": 5,
+      "helpfulness": 4,
+      "workload": 1
+    },
+    "is_anonymous": true,
+    "helpful_count": 28,
+    "created": "2025-09-17T17:23:57.950559Z",
+    "_expanded": {
+      "group": {
+        "id": "class_015",
+        "name": "PHYS102: General Physics II",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_029",
+    "group": "class_016",
+    "author": "user_0025",
+    "rating": 3.3,
+    "comment": "Good fundamentals course. Dr. Emily Thompson is helpful during office hours.",
+    "rating_fields": {
+      "clarity": 3,
+      "helpfulness": 4,
+      "workload": 1
+    },
+    "is_anonymous": false,
+    "helpful_count": 0,
+    "created": "2025-10-29T17:23:57.950577Z",
+    "_expanded": {
+      "group": {
+        "id": "class_016",
+        "name": "PHYS301: Quantum Mechanics",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_030",
+    "group": "class_016",
+    "author": "user_0047",
+    "rating": 3.6,
+    "comment": "Good fundamentals course. Dr. Emily Thompson is helpful during office hours.",
+    "rating_fields": {
+      "clarity": 3,
+      "helpfulness": 4,
+      "workload": 4
+    },
+    "is_anonymous": true,
+    "helpful_count": 30,
+    "created": "2025-06-05T17:23:57.950583Z",
+    "_expanded": {
+      "group": {
+        "id": "class_016",
+        "name": "PHYS301: Quantum Mechanics",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_031",
+    "group": "class_017",
+    "author": "user_0043",
+    "rating": 3.7,
+    "comment": "Average experience. Some topics in statistical mechanics were interesting, others less so.",
+    "rating_fields": {
+      "clarity": 5,
+      "helpfulness": 3,
+      "workload": 5
+    },
+    "is_anonymous": false,
+    "helpful_count": 12,
+    "created": "2025-08-12T17:23:57.950629Z",
+    "_expanded": {
+      "group": {
+        "id": "class_017",
+        "name": "PHYS350: Statistical Mechanics",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_032",
+    "group": "class_017",
+    "author": "user_0019",
+    "rating": 3.6,
+    "comment": "Decent class overall. Dr. Thomas Thompson knows the material but lectures can be dry.",
+    "rating_fields": {
+      "clarity": 3,
+      "helpfulness": 5,
+      "workload": 5
+    },
+    "is_anonymous": false,
+    "helpful_count": 14,
+    "created": "2025-09-11T17:23:57.950635Z",
+    "_expanded": {
+      "group": {
+        "id": "class_017",
+        "name": "PHYS350: Statistical Mechanics",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_033",
+    "group": "class_018",
+    "author": "user_0040",
+    "rating": 2.1,
+    "comment": "Not a great experience. The workload was overwhelming and feedback was minimal.",
+    "rating_fields": {
+      "clarity": 2,
+      "helpfulness": 5,
+      "workload": 4
+    },
+    "is_anonymous": true,
+    "helpful_count": 22,
+    "created": "2025-07-29T17:23:57.950659Z",
+    "_expanded": {
+      "group": {
+        "id": "class_018",
+        "name": "BIOL101: Introduction to Biology",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_034",
+    "group": "class_019",
+    "author": "user_0008",
+    "rating": 3.4,
+    "comment": "Good fundamentals course. Dr. Jennifer Martinez is helpful during office hours.",
+    "rating_fields": {
+      "clarity": 5,
+      "helpfulness": 3,
+      "workload": 4
+    },
+    "is_anonymous": false,
+    "helpful_count": 30,
+    "created": "2025-09-25T17:23:57.950684Z",
+    "_expanded": {
+      "group": {
+        "id": "class_019",
+        "name": "BIOL201: Genetics",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_035",
+    "group": "class_019",
+    "author": "user_0047",
+    "rating": 4.3,
+    "comment": "Dr. Jennifer Martinez is passionate about genetics and it shows in every lecture.",
+    "rating_fields": {
+      "clarity": 5,
+      "helpfulness": 5,
+      "workload": 2
+    },
+    "is_anonymous": false,
+    "helpful_count": 14,
+    "created": "2025-06-24T17:23:57.950694Z",
+    "_expanded": {
+      "group": {
+        "id": "class_019",
+        "name": "BIOL201: Genetics",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_036",
+    "group": "class_019",
+    "author": "user_0018",
+    "rating": 2.8,
+    "comment": "Not a great experience. The workload was overwhelming and feedback was minimal.",
+    "rating_fields": {
+      "clarity": 5,
+      "helpfulness": 3,
+      "workload": 3
+    },
+    "is_anonymous": false,
+    "helpful_count": 2,
+    "created": "2025-06-17T17:23:57.950700Z",
+    "_expanded": {
+      "group": {
+        "id": "class_019",
+        "name": "BIOL201: Genetics",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_037",
+    "group": "class_020",
+    "author": "user_0035",
+    "rating": 2.2,
+    "comment": "Lectures were hard to follow. Had to learn most of biochemistry from the textbook.",
+    "rating_fields": {
+      "clarity": 5,
+      "helpfulness": 5,
+      "workload": 1
+    },
+    "is_anonymous": true,
+    "helpful_count": 26,
+    "created": "2025-09-04T17:23:57.950718Z",
+    "_expanded": {
+      "group": {
+        "id": "class_020",
+        "name": "BIOL301: Biochemistry",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_038",
+    "group": "class_021",
+    "author": "user_0035",
+    "rating": 2.9,
+    "comment": "Lectures were hard to follow. Had to learn most of neuroscience from the textbook.",
+    "rating_fields": {
+      "clarity": 3,
+      "helpfulness": 5,
+      "workload": 2
+    },
+    "is_anonymous": false,
+    "helpful_count": 13,
+    "created": "2025-08-12T17:23:57.950734Z",
+    "_expanded": {
+      "group": {
+        "id": "class_021",
+        "name": "BIOL350: Neuroscience",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_039",
+    "group": "class_021",
+    "author": "user_0043",
+    "rating": 3.5,
+    "comment": "The course covers important neuroscience concepts. Exams are fair.",
+    "rating_fields": {
+      "clarity": 5,
+      "helpfulness": 3,
+      "workload": 4
+    },
+    "is_anonymous": true,
+    "helpful_count": 19,
+    "created": "2025-09-02T17:23:57.950740Z",
+    "_expanded": {
+      "group": {
+        "id": "class_021",
+        "name": "BIOL350: Neuroscience",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_040",
+    "group": "class_022",
+    "author": "user_0002",
+    "rating": 2.8,
+    "comment": "Struggled in this class. Dr. Ashley Anderson's explanations of composition i were confusing.",
+    "rating_fields": {
+      "clarity": 2,
+      "helpfulness": 4,
+      "workload": 2
+    },
+    "is_anonymous": true,
+    "helpful_count": 24,
+    "created": "2025-07-30T17:23:57.950765Z",
+    "_expanded": {
+      "group": {
+        "id": "class_022",
+        "name": "ENG101: Composition I",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_041",
+    "group": "class_022",
+    "author": "user_0016",
+    "rating": 4.9,
+    "comment": "Excellent professor! Dr. Ashley Anderson explains concepts clearly and is always available during office hours.",
+    "rating_fields": {
+      "clarity": 3,
+      "helpfulness": 2,
+      "workload": 5
+    },
+    "is_anonymous": true,
+    "helpful_count": 7,
+    "created": "2025-11-20T17:23:57.950771Z",
+    "_expanded": {
+      "group": {
+        "id": "class_022",
+        "name": "ENG101: Composition I",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_042",
+    "group": "class_023",
+    "author": "user_0011",
+    "rating": 3.4,
+    "comment": "Dr. Ashley Anderson is knowledgeable but could be more engaging in lectures.",
+    "rating_fields": {
+      "clarity": 2,
+      "helpfulness": 3,
+      "workload": 3
+    },
+    "is_anonymous": true,
+    "helpful_count": 18,
+    "created": "2025-08-25T17:23:57.950784Z",
+    "_expanded": {
+      "group": {
+        "id": "class_023",
+        "name": "ENG201: American Literature",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_043",
+    "group": "class_024",
+    "author": "user_0005",
+    "rating": 3.2,
+    "comment": "Standard creative writing class. Nothing exceptional but gets the job done.",
+    "rating_fields": {
+      "clarity": 3,
+      "helpfulness": 2,
+      "workload": 3
+    },
+    "is_anonymous": true,
+    "helpful_count": 25,
+    "created": "2025-10-08T17:23:57.950794Z",
+    "_expanded": {
+      "group": {
+        "id": "class_024",
+        "name": "ENG301: Creative Writing",
+        "type": "class"
+      }
+    }
+  },
+  {
+    "id": "review_044",
+    "group": "class_024",
+    "author": "user_0023",
+    "rating": 5.0,
+    "comment": "Love this class! Dr. Ashley Anderson uses real-world examples that make creative writing click.",
+    "rating_fields": {
+      "clarity": 5,
+      "helpfulness": 4,
+      "workload": 1
+    },
+    "is_anonymous": false,
+    "helpful_count": 0,
+    "created": "2025-11-17T17:23:57.950800Z",
+    "_expanded": {
+      "group": {
+        "id": "class_024",
+        "name": "ENG301: Creative Writing",
+        "type": "class"
+      }
+    }
+  }
+]

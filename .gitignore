@@ -1,0 +1,87 @@
+# Environment
+.env
+venv/
+env/
+.venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (large files - keep structure, ignore contents)
+# Note: Sample data in data/raw/ is committed for grading purposes
+# Only ignore user ID mapping (contains original IDs)
+data/raw/_user_id_mapping.json
+data/processed/*.json
+data/processed/*.pkl
+data/chroma/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/evaluation/.gitkeep
+
+# Results (generated outputs)
+results/metrics/*.json
+results/figures/*.png
+results/figures/*.pdf
+results/ablation/*.json
+!results/metrics/.gitkeep
+!results/figures/.gitkeep
+!results/ablation/.gitkeep
+
+# Model artifacts
+*.pt
+*.pth
+*.onnx
+models/
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Build
+*.manifest
+*.spec
+
+# Streamlit
+.streamlit/secrets.toml
