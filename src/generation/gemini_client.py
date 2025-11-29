@@ -1,7 +1,7 @@
 """
-Claude API Client for Tribly AI Assistant.
+Gemini API Client for Tribly AI Assistant.
 
-Handles interaction with the Claude API including tool/function calling
+Handles interaction with the Google Gemini API including function calling
 for the agentic RAG system.
 
 Rubric Items:
@@ -12,32 +12,32 @@ Rubric Items:
 import os
 import json
 import logging
-from typing import List, Dict, Any, Optional, Generator, Callable
+from typing import List, Dict, Any, Optional, Callable
 from dataclasses import dataclass, field
 
 logger = logging.getLogger(__name__)
 
-# Lazy import anthropic to avoid issues if not installed
-_anthropic = None
+# Lazy import google.generativeai to avoid issues if not installed
+_genai = None
 
 
-def _get_anthropic():
-    """Lazy load anthropic module."""
-    global _anthropic
-    if _anthropic is None:
+def _get_genai():
+    """Lazy load google.generativeai module."""
+    global _genai
+    if _genai is None:
         try:
-            import anthropic
-            _anthropic = anthropic
+            import google.generativeai as genai
+            _genai = genai
         except ImportError:
             raise ImportError(
-                "anthropic package is required. Install with: pip install anthropic"
+                "google-generativeai package is required. Install with: pip install google-generativeai"
             )
-    return _anthropic
+    return _genai
 
 
 @dataclass
 class ToolUse:
-    """Represents a tool call made by Claude."""
+    """Represents a tool call made by Gemini."""
     id: str
     name: str
     input: Dict[str, Any]
@@ -54,7 +54,7 @@ class ToolResult:
 @dataclass
 class Message:
     """A message in the conversation."""
-    role: str  # "user", "assistant"
+    role: str  # "user", "model"
     content: Any  # str or list of content blocks
 
 
@@ -69,16 +69,16 @@ class AgentResponse:
     stop_reason: str = ""
 
 
-class ClaudeClient:
+class GeminiClient:
     """
-    Client for interacting with Claude API with tool calling support.
+    Client for interacting with Gemini API with function calling support.
 
-    Implements an agentic loop that allows Claude to call tools
+    Implements an agentic loop that allows Gemini to call tools
     and process results iteratively.
     """
 
     # Default model configuration
-    DEFAULT_MODEL = "claude-sonnet-4-20250514"
+    DEFAULT_MODEL = "gemini-2.5-flash"
     MAX_TOKENS = 4096
     MAX_ITERATIONS = 10  # Prevent infinite loops
 
@@ -89,35 +89,45 @@ class ClaudeClient:
         max_tokens: int = None
     ):
         """
-        Initialize the Claude client.
+        Initialize the Gemini client.
 
         Args:
-            api_key: Anthropic API key. Uses ANTHROPIC_API_KEY env var if not provided.
-            model: Model to use. Defaults to claude-sonnet-4-20250514.
+            api_key: Google API key. Uses GOOGLE_API_KEY env var if not provided.
+            model: Model to use. Defaults to gemini-1.5-flash.
             max_tokens: Maximum tokens in response.
         """
-        self.api_key = api_key or os.getenv("ANTHROPIC_API_KEY")
-        self.model = model or self.DEFAULT_MODEL
+        self.api_key = api_key or os.getenv("GOOGLE_API_KEY")
+        self.model_name = model or self.DEFAULT_MODEL
         self.max_tokens = max_tokens or self.MAX_TOKENS
 
-        self._client = None
+        self._model = None
         self._is_initialized = False
 
     def initialize(self) -> None:
-        """Initialize the Anthropic client."""
+        """Initialize the Gemini client."""
         if self._is_initialized:
             return
 
         if not self.api_key:
             raise ValueError(
-                "Anthropic API key required. Set ANTHROPIC_API_KEY environment variable "
+                "Google API key required. Set GOOGLE_API_KEY environment variable "
                 "or pass api_key parameter."
             )
 
-        anthropic = _get_anthropic()
-        self._client = anthropic.Anthropic(api_key=self.api_key)
+        genai = _get_genai()
+        genai.configure(api_key=self.api_key)
+
+        # Create the model
+        self._model = genai.GenerativeModel(
+            model_name=self.model_name,
+            generation_config={
+                "max_output_tokens": self.max_tokens,
+                "temperature": 0.7,
+            }
+        )
+
         self._is_initialized = True
-        logger.info(f"Claude client initialized with model: {self.model}")
+        logger.info(f"Gemini client initialized with model: {self.model_name}")
 
     def is_ready(self) -> bool:
         """Check if client is initialized."""
@@ -128,6 +138,22 @@ class ClaudeClient:
         if not self.is_ready():
             self.initialize()
 
+    def _convert_tools_to_gemini_format(self, tools: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """Convert Claude-style tools to Gemini function declarations."""
+        function_declarations = []
+
+        for tool in tools:
+            # Claude format has 'name', 'description', 'input_schema'
+            # Gemini format uses 'name', 'description', 'parameters'
+            func_decl = {
+                "name": tool["name"],
+                "description": tool.get("description", ""),
+                "parameters": tool.get("input_schema", {})
+            }
+            function_declarations.append(func_decl)
+
+        return function_declarations
+
     def chat(
         self,
         messages: List[Dict[str, Any]],
@@ -136,70 +162,131 @@ class ClaudeClient:
         tool_choice: Dict[str, Any] = None
     ) -> Dict[str, Any]:
         """
-        Send a chat request to Claude.
+        Send a chat request to Gemini.
 
         Args:
             messages: List of message dicts with 'role' and 'content'.
             system_prompt: Optional system prompt.
             tools: Optional list of tool definitions.
-            tool_choice: Optional tool choice specification.
+            tool_choice: Optional tool choice specification (not used by Gemini).
 
         Returns:
-            Raw API response dict.
+            Response dict with content and metadata.
         """
         self._ensure_initialized()
 
-        # Build request params
-        params = {
-            "model": self.model,
-            "max_tokens": self.max_tokens,
-            "messages": messages
-        }
+        genai = _get_genai()
 
+        # Build Gemini-compatible messages
+        gemini_messages = []
+
+        for msg in messages:
+            role = msg["role"]
+            content = msg["content"]
+
+            # Map roles: Claude uses "assistant", Gemini uses "model"
+            if role == "assistant":
+                role = "model"
+
+            # Handle content that might be a list (tool results)
+            if isinstance(content, list):
+                # Convert tool results to Gemini format
+                parts = []
+                for block in content:
+                    if block.get("type") == "tool_result":
+                        parts.append({
+                            "function_response": {
+                                "name": block.get("tool_use_id", "unknown"),
+                                "response": {"result": block.get("content", "")}
+                            }
+                        })
+                    elif block.get("type") == "text":
+                        parts.append(block.get("text", ""))
+                    else:
+                        parts.append(str(block))
+                content = parts if parts else str(content)
+
+            gemini_messages.append({
+                "role": role,
+                "parts": [content] if isinstance(content, str) else content
+            })
+
+        # Create chat with system instruction
+        chat_kwargs = {}
         if system_prompt:
-            params["system"] = system_prompt
+            # For Gemini, system instruction is set at model level
+            self._model = genai.GenerativeModel(
+                model_name=self.model_name,
+                generation_config={
+                    "max_output_tokens": self.max_tokens,
+                    "temperature": 0.7,
+                },
+                system_instruction=system_prompt
+            )
 
+        # Add tools if provided
         if tools:
-            params["tools"] = tools
-
-        if tool_choice:
-            params["tool_choice"] = tool_choice
+            function_declarations = self._convert_tools_to_gemini_format(tools)
+            chat_kwargs["tools"] = [{"function_declarations": function_declarations}]
 
         try:
-            response = self._client.messages.create(**params)
+            # Start chat and send messages
+            chat = self._model.start_chat(history=gemini_messages[:-1] if len(gemini_messages) > 1 else [])
+
+            # Get the last user message
+            last_message = gemini_messages[-1] if gemini_messages else {"parts": [""]}
+            last_content = last_message.get("parts", [""])[0]
+
+            if tools:
+                response = chat.send_message(last_content, tools=chat_kwargs.get("tools"))
+            else:
+                response = chat.send_message(last_content)
+
             return self._response_to_dict(response)
+
         except Exception as e:
-            logger.error(f"Claude API error: {e}")
+            logger.error(f"Gemini API error: {e}")
             raise
 
     def _response_to_dict(self, response) -> Dict[str, Any]:
-        """Convert API response to dictionary."""
-        return {
-            "id": response.id,
-            "type": response.type,
-            "role": response.role,
-            "content": [self._content_block_to_dict(block) for block in response.content],
-            "model": response.model,
-            "stop_reason": response.stop_reason,
-            "stop_sequence": response.stop_sequence,
-            "usage": {
-                "input_tokens": response.usage.input_tokens,
-                "output_tokens": response.usage.output_tokens
-            }
-        }
+        """Convert Gemini response to dictionary."""
+        content = []
+        stop_reason = "stop"
 
-    def _content_block_to_dict(self, block) -> Dict[str, Any]:
-        """Convert content block to dictionary."""
-        if block.type == "text":
-            return {"type": "text", "text": block.text}
-        elif block.type == "tool_use":
-            return {
-                "type": "tool_use",
-                "id": block.id,
-                "name": block.name,
-                "input": block.input
+        # Process response parts
+        for candidate in response.candidates:
+            for part in candidate.content.parts:
+                if hasattr(part, 'text') and part.text:
+                    content.append({"type": "text", "text": part.text})
+                elif hasattr(part, 'function_call'):
+                    # Function call
+                    fc = part.function_call
+                    content.append({
+                        "type": "tool_use",
+                        "id": fc.name,  # Use function name as ID
+                        "name": fc.name,
+                        "input": dict(fc.args) if fc.args else {}
+                    })
+                    stop_reason = "tool_use"
+
+        # Get usage info if available
+        usage = {}
+        if hasattr(response, 'usage_metadata'):
+            usage = {
+                "input_tokens": getattr(response.usage_metadata, 'prompt_token_count', 0),
+                "output_tokens": getattr(response.usage_metadata, 'candidates_token_count', 0)
             }
-        return {"type": block.type}
+
+        return {
+            "id": "gemini-response",
+            "type": "message",
+            "role": "model",
+            "content": content,
+            "model": self.model_name,
+            "stop_reason": stop_reason,
+            "stop_sequence": None,
+            "usage": usage
+        }
 
     def run_agent(
         self,
@@ -212,7 +299,7 @@ class ClaudeClient:
         """
         Run the agentic loop with tool calling.
 
-        This implements the core agentic behavior where Claude can:
+        This implements the core agentic behavior where Gemini can:
         1. Analyze the query
         2. Call tools to retrieve information
         3. Process tool results
@@ -244,7 +331,7 @@ class ClaudeClient:
             iteration += 1
             logger.debug(f"Agent iteration {iteration}")
 
-            # Call Claude
+            # Call Gemini
             response = self.chat(
                 messages=messages,
                 system_prompt=system_prompt,
@@ -252,8 +339,8 @@ class ClaudeClient:
             )
 
             # Update usage
-            total_usage["input_tokens"] += response["usage"]["input_tokens"]
-            total_usage["output_tokens"] += response["usage"]["output_tokens"]
+            total_usage["input_tokens"] += response["usage"].get("input_tokens", 0)
+            total_usage["output_tokens"] += response["usage"].get("output_tokens", 0)
 
             # Process response content
             assistant_content = response["content"]
@@ -369,12 +456,12 @@ class ClaudeClient:
 
 
 # Singleton instance
-_default_client: Optional[ClaudeClient] = None
+_default_client: Optional[GeminiClient] = None
 
 
-def get_claude_client() -> ClaudeClient:
-    """Get the default Claude client instance."""
+def get_gemini_client() -> GeminiClient:
+    """Get the default Gemini client instance."""
     global _default_client
     if _default_client is None:
-        _default_client = ClaudeClient()
+        _default_client = GeminiClient()
     return _default_client

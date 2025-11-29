@@ -11,9 +11,10 @@ Rubric Items:
 
 import json
 import logging
-from typing import Dict, Any, List, Optional, Callable
+from typing import Dict, Any, List, Optional, Callable, Union
 
 from .tools import ToolName
+from ..retrieval.retriever import RetrievalResponse, RetrievalResult
 
 logger = logging.getLogger(__name__)
 
@@ -97,6 +98,33 @@ class ToolExecutor:
             return result
         return json.dumps(result, indent=2, default=str)
 
+    def _extract_results(
+        self,
+        response: Union[RetrievalResponse, List[Dict[str, Any]]]
+    ) -> List[Dict[str, Any]]:
+        """
+        Extract results from RetrievalResponse or raw list.
+
+        Converts RetrievalResult objects to dicts for formatting.
+        """
+        if isinstance(response, RetrievalResponse):
+            results = []
+            for r in response.results:
+                results.append({
+                    "id": r.id,
+                    "document": r.content,
+                    "similarity": r.score,
+                    "final_score": r.score,
+                    "collection": r.collection,
+                    "metadata": r.metadata,
+                    "method": r.method
+                })
+            return results
+        elif isinstance(response, list):
+            return response
+        else:
+            return []
+
     # ========================================================================
     # TOOL HANDLERS
     # ========================================================================
@@ -117,7 +145,8 @@ class ToolExecutor:
             query = f"{query} {input['class_name']}"
 
         # Execute search
-        results = retriever.search_reviews(query, top_k=limit)
+        response = retriever.search_reviews(query, top_k=limit)
+        results = self._extract_results(response)
 
         # Filter by min_rating if specified
         min_rating = input.get("min_rating")
@@ -141,7 +170,8 @@ class ToolExecutor:
         limit = input.get("limit", 5)
 
         # Execute search
-        results = retriever.search_events(query, top_k=limit)
+        response = retriever.search_events(query, top_k=limit)
+        results = self._extract_results(response)
 
         # Filter by free_food if specified
         if input.get("free_food") is not None:
@@ -170,7 +200,8 @@ class ToolExecutor:
             query = f"{query} {input['class_name']}"
 
         # Execute search
-        results = retriever.search_resources(query, top_k=limit)
+        response = retriever.search_resources(query, top_k=limit)
+        results = self._extract_results(response)
 
         return {
             "query": query,
@@ -186,7 +217,8 @@ class ToolExecutor:
         limit = input.get("limit", 5)
 
         # Execute search
-        results = retriever.search_posts(query, top_k=limit)
+        response = retriever.search_posts(query, top_k=limit)
+        results = self._extract_results(response)
 
         # Filter by category if specified
         category = input.get("category")
@@ -214,11 +246,12 @@ class ToolExecutor:
             query = f"{input['department']} {query}"
 
         # Execute search on classes collection
-        results = retriever.search(
+        response = retriever.search(
             query=query,
             collections=["classes"],
             top_k=limit
         )
+        results = self._extract_results(response)
 
         return {
             "query": query,
@@ -234,11 +267,12 @@ class ToolExecutor:
         limit = input.get("limit", 5)
 
         # Execute search on teachers collection
-        results = retriever.search(
+        response = retriever.search(
             query=query,
             collections=["teachers"],
             top_k=limit
         )
+        results = self._extract_results(response)
 
         return {
             "query": query,
@@ -254,7 +288,8 @@ class ToolExecutor:
         limit = input.get("limit", 10)
 
         # Execute search across all collections
-        results = retriever.search(query=query, top_k=limit)
+        response = retriever.search(query=query, top_k=limit)
+        results = self._extract_results(response)
 
         return {
             "query": query,

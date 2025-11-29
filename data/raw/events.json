@@ -4,7 +4,7 @@
     "title": "Guest Speaker: Jordan Chen",
     "description": "Join us for a talk on data analysis by industry expert Morgan Taylor.",
     "location": "Library",
-    "date_time": "2026-01-22T17:23:57.950834Z",
+    "date_time": "2026-01-22T18:01:53.592810Z",
     "duration": 120,
     "host_group": "group_028",
     "attendees": [
@@ -33,7 +33,7 @@
       "professional",
       "monthly"
     ],
-    "created": "2025-11-05T17:23:57.950852Z",
+    "created": "2025-11-05T18:01:53.592842Z",
     "_expanded": {
       "host_group": {
         "id": "group_028",
@@ -47,7 +47,7 @@
     "title": "Networking Night",
     "description": "Connect with alumni and professionals in healthcare. Food and drinks provided!",
     "location": "Library",
-    "date_time": "2025-12-27T17:23:57.950864Z",
+    "date_time": "2025-12-27T18:01:53.592860Z",
     "duration": 120,
     "host_group": "group_025",
     "attendees": [
@@ -69,7 +69,7 @@
       "social",
       "weekly"
     ],
-    "created": "2025-11-04T17:23:57.950877Z",
+    "created": "2025-11-04T18:01:53.592880Z",
     "_expanded": {
       "host_group": {
         "id": "group_025",
@@ -83,7 +83,7 @@
     "title": "Engineering Society Social",
     "description": "Casual hangout for CS Club members. Games, snacks, and good company!",
     "location": "Science Center",
-    "date_time": "2026-01-16T17:23:57.950887Z",
+    "date_time": "2026-01-16T18:01:53.592895Z",
     "duration": 90,
     "host_group": "group_027",
     "attendees": [
@@ -113,7 +113,7 @@
       "fun",
       "fall-2024"
     ],
-    "created": "2025-11-26T17:23:57.950904Z",
+    "created": "2025-11-26T18:01:53.592921Z",
     "_expanded": {
       "host_group": {
         "id": "group_027",
@@ -127,7 +127,7 @@
     "title": "Networking Night",
     "description": "Connect with alumni and professionals in consulting. Food and drinks provided!",
     "location": "Library",
-    "date_time": "2025-12-15T17:23:57.950911Z",
+    "date_time": "2025-12-15T18:01:53.592936Z",
     "duration": 60,
     "host_group": "group_032",
     "attendees": [
@@ -154,7 +154,7 @@
       "social",
       "monthly"
     ],
-    "created": "2025-11-08T17:23:57.950923Z",
+    "created": "2025-11-08T18:01:53.592956Z",
     "_expanded": {
       "host_group": {
         "id": "group_032",
@@ -168,7 +168,7 @@
     "title": "Biology Study Session",
     "description": "Group study session for English. We'll review key concepts and work through practice problems.",
     "location": "Auditorium",
-    "date_time": "2026-01-16T17:23:57.950931Z",
+    "date_time": "2026-01-16T18:01:53.592968Z",
     "duration": 90,
     "host_group": "group_028",
     "attendees": [
@@ -191,7 +191,7 @@
       "group",
       "monthly"
     ],
-    "created": "2025-11-12T17:23:57.950941Z",
+    "created": "2025-11-12T18:01:53.592984Z",
     "_expanded": {
       "host_group": {
         "id": "group_028",
@@ -205,7 +205,7 @@
     "title": "Networking Night",
     "description": "Connect with alumni and professionals in startups. Food and drinks provided!",
     "location": "Room 101",
-    "date_time": "2025-12-26T17:23:57.950948Z",
+    "date_time": "2025-12-26T18:01:53.593052Z",
     "duration": 90,
     "host_group": "group_026",
     "attendees": [
@@ -224,7 +224,7 @@
       "social",
       "monthly"
     ],
-    "created": "2025-10-29T17:23:57.951003Z",
+    "created": "2025-10-29T18:01:53.593078Z",
     "_expanded": {
       "host_group": {
         "id": "group_026",
@@ -238,7 +238,7 @@
     "title": "Networking Night",
     "description": "Connect with alumni and professionals in healthcare. Food and drinks provided!",
     "location": "Coffee House",
-    "date_time": "2026-01-06T17:23:57.951023Z",
+    "date_time": "2026-01-06T18:01:53.593101Z",
     "duration": 120,
     "host_group": "group_025",
     "attendees": [
@@ -261,7 +261,7 @@
       "social",
       "fall-2024"
     ],
-    "created": "2025-11-12T17:23:57.951039Z",
+    "created": "2025-11-12T18:01:53.593120Z",
     "_expanded": {
       "host_group": {
         "id": "group_025",
@@ -275,7 +275,7 @@
     "title": "Research Symposium",
     "description": "Undergraduate research presentations in Physics.",
     "location": "Engineering Building",
-    "date_time": "2026-01-10T17:23:57.951047Z",
+    "date_time": "2026-01-10T18:01:53.593131Z",
     "duration": 120,
     "host_group": "group_026",
     "attendees": [
@@ -303,7 +303,7 @@
       "presentation",
       "fall-2024"
     ],
-    "created": "2025-11-06T17:23:57.951059Z",
+    "created": "2025-11-06T18:01:53.593151Z",
     "_expanded": {
       "host_group": {
         "id": "group_026",
@@ -317,7 +317,7 @@
     "title": "Research Symposium",
     "description": "Undergraduate research presentations in Computer Science.",
     "location": "Quad",
-    "date_time": "2025-12-07T17:23:57.951066Z",
+    "date_time": "2025-12-07T18:01:53.593162Z",
     "duration": 180,
     "host_group": "group_029",
     "attendees": [
@@ -335,7 +335,7 @@
       "presentation",
       "monthly"
     ],
-    "created": "2025-11-27T17:23:57.951074Z",
+    "created": "2025-11-27T18:01:53.593175Z",
     "_expanded": {
       "host_group": {
         "id": "group_029",
@@ -349,7 +349,7 @@
     "title": "Hackathon: social good",
     "description": "24-hour coding competition. Build something awesome with health tech!",
     "location": "Quad",
-    "date_time": "2025-12-29T17:23:57.951082Z",
+    "date_time": "2025-12-29T18:01:53.593187Z",
     "duration": 240,
     "host_group": "group_028",
     "attendees": [
@@ -368,7 +368,7 @@
       "competition",
       "weekly"
     ],
-    "created": "2025-11-17T17:23:57.951094Z",
+    "created": "2025-11-17T18:01:53.593205Z",
     "_expanded": {
       "host_group": {
         "id": "group_028",
@@ -382,7 +382,7 @@
     "title": "Networking Night",
     "description": "Connect with alumni and professionals in healthcare. Food and drinks provided!",
     "location": "Quad",
-    "date_time": "2026-01-03T17:23:57.951103Z",
+    "date_time": "2026-01-03T18:01:53.593216Z",
     "duration": 120,
     "host_group": "group_031",
     "attendees": [
@@ -403,7 +403,7 @@
       "social",
       "weekly"
     ],
-    "created": "2025-11-05T17:23:57.951111Z",
+    "created": "2025-11-05T18:01:53.593230Z",
     "_expanded": {
       "host_group": {
         "id": "group_031",
@@ -417,7 +417,7 @@
     "title": "Hackathon: education",
     "description": "24-hour coding competition. Build something awesome with health tech!",
     "location": "Coffee House",
-    "date_time": "2025-11-29T17:23:57.951119Z",
+    "date_time": "2025-11-29T18:01:53.593242Z",
     "duration": 90,
     "host_group": "group_027",
     "attendees": [
@@ -434,7 +434,7 @@
       "competition",
       "monthly"
     ],
-    "created": "2025-11-25T17:23:57.951127Z",
+    "created": "2025-11-25T18:01:53.593255Z",
     "_expanded": {
       "host_group": {
         "id": "group_027",
@@ -448,7 +448,7 @@
     "title": "Math Club Social",
     "description": "Casual hangout for CS Club members. Games, snacks, and good company!",
     "location": "Auditorium",
-    "date_time": "2025-12-26T17:23:57.951136Z",
+    "date_time": "2025-12-26T18:01:53.593267Z",
     "duration": 60,
     "host_group": "group_026",
     "attendees": [
@@ -477,7 +477,7 @@
       "fun",
       "fall-2024"
     ],
-    "created": "2025-11-22T17:23:57.951149Z",
+    "created": "2025-11-22T18:01:53.593288Z",
     "_expanded": {
       "host_group": {
         "id": "group_026",
@@ -491,7 +491,7 @@
     "title": "Math Club Workshop",
     "description": "Hands-on workshop covering data analysis. All skill levels welcome!",
     "location": "Arts Building",
-    "date_time": "2026-01-25T17:23:57.951156Z",
+    "date_time": "2026-01-25T18:01:53.593301Z",
     "duration": 240,
     "host_group": "group_032",
     "attendees": [
@@ -511,7 +511,7 @@
       "hands-on",
       "weekly"
     ],
-    "created": "2025-10-31T17:23:57.951166Z",
+    "created": "2025-10-31T18:01:53.593317Z",
     "_expanded": {
       "host_group": {
         "id": "group_032",
@@ -525,7 +525,7 @@
     "title": "Networking Night",
     "description": "Connect with alumni and professionals in consulting. Food and drinks provided!",
     "location": "Room 204",
-    "date_time": "2025-12-16T17:23:57.951173Z",
+    "date_time": "2025-12-16T18:01:53.593327Z",
     "duration": 60,
     "host_group": "group_025",
     "attendees": [
@@ -555,7 +555,7 @@
       "social",
       "monthly"
     ],
-    "created": "2025-11-07T17:23:57.951253Z",
+    "created": "2025-11-07T18:01:53.593350Z",
     "_expanded": {
       "host_group": {
         "id": "group_025",

@@ -97,6 +97,37 @@ class Retriever:
 
         # Cache for keyword search
         self._document_cache: Dict[str, List[Dict[str, Any]]] = {}
+        self._initialized = False
+
+    def initialize(self) -> None:
+        """
+        Initialize the retriever and its dependencies.
+
+        Ensures embedding service and vector store are ready.
+        """
+        if self._initialized:
+            return
+
+        logger.info("Initializing Retriever...")
+
+        # Initialize embedding service
+        if not self.embedding_service.is_ready():
+            self.embedding_service.initialize()
+
+        # Initialize vector store
+        if not self.vector_store.is_ready():
+            self.vector_store.initialize()
+
+        self._initialized = True
+        logger.info("Retriever initialized successfully")
+
+    def is_ready(self) -> bool:
+        """Check if the retriever is ready for queries."""
+        return (
+            self._initialized and
+            self.embedding_service.is_ready() and
+            self.vector_store.is_ready()
+        )
 
     def search(
         self,
@@ -104,6 +135,7 @@ class Retriever:
         collections: List[str] = None,
         top_k: int = 10,
         method: Literal["semantic", "keyword", "hybrid"] = "semantic",
+        mode: Literal["semantic", "keyword", "hybrid"] = None,
         filters: Dict[str, Any] = None
     ) -> RetrievalResponse:
         """
@@ -119,14 +151,17 @@ class Retriever:
         Returns:
             RetrievalResponse with ranked results.
         """
-        if method == "semantic":
+        # Support 'mode' as alias for 'method' for backwards compatibility
+        search_method = mode if mode is not None else method
+
+        if search_method == "semantic":
             return self.semantic_search(query, collections, top_k, filters)
-        elif method == "keyword":
+        elif search_method == "keyword":
             return self.keyword_search(query, collections, top_k, filters)
-        elif method == "hybrid":
+        elif search_method == "hybrid":
             return self.hybrid_search(query, collections, top_k, filters)
         else:
-            raise ValueError(f"Unknown search method: {method}")
+            raise ValueError(f"Unknown search method: {search_method}")
 
     def semantic_search(
         self,

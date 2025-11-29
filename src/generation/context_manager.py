@@ -15,7 +15,7 @@ from typing import Dict, Any, List, Optional
 from dataclasses import dataclass, field
 from datetime import datetime
 
-from .claude_client import ClaudeClient, AgentResponse, get_claude_client
+from .gemini_client import GeminiClient, AgentResponse, get_gemini_client
 from .tool_executor import ToolExecutor, get_tool_executor
 from .tools import get_all_tool_schemas, select_tools_for_query
 from .prompt_templates import ASSISTANT_SYSTEM_PROMPT, build_context_prompt
@@ -72,7 +72,7 @@ class ContextManager:
 
     def __init__(
         self,
-        claude_client: ClaudeClient = None,
+        gemini_client: GeminiClient = None,
         tool_executor: ToolExecutor = None,
         system_prompt: str = None,
         max_conversation_history: int = 10
@@ -81,12 +81,12 @@ class ContextManager:
         Initialize the context manager.
 
         Args:
-            claude_client: Claude API client instance.
+            gemini_client: Gemini API client instance.
             tool_executor: Tool executor instance.
             system_prompt: Custom system prompt.
             max_conversation_history: Max turns to include in context.
         """
-        self._claude_client = claude_client
+        self._gemini_client = gemini_client
         self._tool_executor = tool_executor
         self._system_prompt = system_prompt or ASSISTANT_SYSTEM_PROMPT
         self._max_history = max_conversation_history
@@ -99,10 +99,10 @@ class ContextManager:
         if self._is_initialized:
             return
 
-        # Initialize Claude client
-        if self._claude_client is None:
-            self._claude_client = get_claude_client()
-        self._claude_client.initialize()
+        # Initialize Gemini client
+        if self._gemini_client is None:
+            self._gemini_client = get_gemini_client()
+        self._gemini_client.initialize()
 
         # Initialize tool executor
         if self._tool_executor is None:
@@ -203,7 +203,7 @@ class ContextManager:
             return self._tool_executor.execute(tool_name, tool_input)
 
         # Run agent loop
-        agent_response: AgentResponse = self._claude_client.run_agent(
+        agent_response: AgentResponse = self._gemini_client.run_agent(
             query=query,
             system_prompt=self._system_prompt,
             tools=tools,
@@ -261,11 +261,11 @@ class ContextManager:
             include_system=False
         )
 
-        # Get response from Claude
+        # Get response from Gemini
         messages = list(conversation_history)
         messages.append({"role": "user", "content": context_prompt})
 
-        response = self._claude_client.chat(
+        response = self._gemini_client.chat(
             messages=messages,
             system_prompt=self._system_prompt
         )

@@ -10,7 +10,7 @@
       "fun"
     ],
     "location": "Arts Building",
-    "date_time": "2025-12-12T17:23:57.951288Z",
+    "date_time": "2025-12-12T18:01:53.593367Z",
     "creator": "user_0021",
     "attendees": [
       "user_0012",
@@ -22,7 +22,7 @@
       "user_0033"
     ],
     "everyone": true,
-    "created": "2025-11-26T17:23:57.951304Z"
+    "created": "2025-11-26T18:01:53.593383Z"
   },
   {
     "id": "hangout_002",
@@ -35,7 +35,7 @@
       "fun"
     ],
     "location": "Science Center",
-    "date_time": "2025-11-30T17:23:57.951317Z",
+    "date_time": "2025-11-30T18:01:53.593399Z",
     "creator": "user_0044",
     "attendees": [
       "user_0036",
@@ -47,7 +47,7 @@
       "user_0035"
     ],
     "everyone": true,
-    "created": "2025-11-21T17:23:57.951329Z"
+    "created": "2025-11-21T18:01:53.593413Z"
   },
   {
     "id": "hangout_003",
@@ -60,13 +60,13 @@
       "academic"
     ],
     "location": "Science Center",
-    "date_time": "2025-12-08T17:23:57.951338Z",
+    "date_time": "2025-12-08T18:01:53.593426Z",
     "creator": "user_0031",
     "attendees": [
       "user_0040"
     ],
     "everyone": false,
-    "created": "2025-11-23T17:23:57.951355Z"
+    "created": "2025-11-23T18:01:53.593433Z"
   },
   {
     "id": "hangout_004",
@@ -79,7 +79,7 @@
       "nature"
     ],
     "location": "Student Union",
-    "date_time": "2025-11-30T17:23:57.951363Z",
+    "date_time": "2025-11-30T18:01:53.593442Z",
     "creator": "user_0003",
     "attendees": [
       "user_0032",
@@ -89,7 +89,7 @@
       "user_0035"
     ],
     "everyone": true,
-    "created": "2025-11-22T17:23:57.951371Z"
+    "created": "2025-11-22T18:01:53.593452Z"
   },
   {
     "id": "hangout_005",
@@ -102,7 +102,7 @@
       "adventure"
     ],
     "location": "Quad",
-    "date_time": "2025-11-29T17:23:57.951378Z",
+    "date_time": "2025-11-29T18:01:53.593462Z",
     "creator": "user_0040",
     "attendees": [
       "user_0018",
@@ -114,7 +114,7 @@
       "user_0029"
     ],
     "everyone": true,
-    "created": "2025-11-23T17:23:57.951387Z"
+    "created": "2025-11-23T18:01:53.593473Z"
   },
   {
     "id": "hangout_006",
@@ -127,7 +127,7 @@
       "fitness"
     ],
     "location": "Science Center",
-    "date_time": "2025-12-02T17:23:57.951397Z",
+    "date_time": "2025-12-02T18:01:53.593484Z",
     "creator": "user_0008",
     "attendees": [
       "user_0006",
@@ -140,7 +140,7 @@
       "user_0004"
     ],
     "everyone": true,
-    "created": "2025-11-25T17:23:57.951406Z"
+    "created": "2025-11-25T18:01:53.593502Z"
   },
   {
     "id": "hangout_007",
@@ -153,7 +153,7 @@
       "social"
     ],
     "location": "Science Center",
-    "date_time": "2025-12-11T17:23:57.951413Z",
+    "date_time": "2025-12-11T18:01:53.593512Z",
     "creator": "user_0022",
     "attendees": [
       "user_0039",
@@ -161,7 +161,7 @@
       "user_0018"
     ],
     "everyone": true,
-    "created": "2025-11-26T17:23:57.951419Z"
+    "created": "2025-11-26T18:01:53.593520Z"
   },
   {
     "id": "hangout_008",
@@ -174,7 +174,7 @@
       "fun"
     ],
     "location": "Science Center",
-    "date_time": "2025-12-10T17:23:57.951426Z",
+    "date_time": "2025-12-10T18:01:53.593529Z",
     "creator": "user_0038",
     "attendees": [
       "user_0002",
@@ -185,7 +185,7 @@
       "user_0048"
     ],
     "everyone": true,
-    "created": "2025-11-27T17:23:57.951434Z"
+    "created": "2025-11-27T18:01:53.593539Z"
   },
   {
     "id": "hangout_009",
@@ -198,7 +198,7 @@
       "fitness"
     ],
     "location": "Room 204",
-    "date_time": "2025-12-01T17:23:57.951440Z",
+    "date_time": "2025-12-01T18:01:53.593548Z",
     "creator": "user_0003",
     "attendees": [
       "user_0030",
@@ -208,7 +208,7 @@
       "user_0031"
     ],
     "everyone": true,
-    "created": "2025-11-22T17:23:57.951450Z"
+    "created": "2025-11-22T18:01:53.593559Z"
   },
   {
     "id": "hangout_010",
@@ -221,7 +221,7 @@
       "fitness"
     ],
     "location": "Library",
-    "date_time": "2025-11-30T17:23:57.951457Z",
+    "date_time": "2025-11-30T18:01:53.593566Z",
     "creator": "user_0009",
     "attendees": [
       "user_0040",
@@ -231,6 +231,6 @@
       "user_0046"
     ],
     "everyone": true,
-    "created": "2025-11-22T17:23:57.951466Z"
+    "created": "2025-11-22T18:01:53.593576Z"
   }
 ]

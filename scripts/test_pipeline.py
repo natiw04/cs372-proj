@@ -161,37 +161,37 @@ def test_retrieval():
     # Test semantic search
     print_subheader("Semantic Search")
     query = "best computer science professors"
-    results = retriever.search(query, mode="semantic", top_k=3)
+    response = retriever.search(query, mode="semantic", top_k=3)
     print_result("Query", query)
-    print_result("Results", len(results))
-    for i, r in enumerate(results[:2]):
-        print(f"  {i+1}. {r.get('document', '')[:60]}... (score: {r.get('similarity', 0):.3f})")
+    print_result("Results", len(response.results))
+    for i, r in enumerate(response.results[:2]):
+        print(f"  {i+1}. {r.content[:60]}... (score: {r.score:.3f})")
 
     # Test keyword search
     print_subheader("Keyword Search (Baseline)")
-    results = retriever.search(query, mode="keyword", top_k=3)
-    print_result("Results", len(results))
-    for i, r in enumerate(results[:2]):
-        print(f"  {i+1}. {r.get('document', '')[:60]}... (score: {r.get('score', 0):.3f})")
+    response = retriever.search(query, mode="keyword", top_k=3)
+    print_result("Results", len(response.results))
+    for i, r in enumerate(response.results[:2]):
+        print(f"  {i+1}. {r.content[:60]}... (score: {r.score:.3f})")
 
     # Test hybrid search
     print_subheader("Hybrid Search")
-    results = retriever.search(query, mode="hybrid", top_k=3)
-    print_result("Results", len(results))
-    for i, r in enumerate(results[:2]):
-        print(f"  {i+1}. {r.get('document', '')[:60]}... (score: {r.get('final_score', 0):.3f})")
+    response = retriever.search(query, mode="hybrid", top_k=3)
+    print_result("Results", len(response.results))
+    for i, r in enumerate(response.results[:2]):
+        print(f"  {i+1}. {r.content[:60]}... (score: {r.score:.3f})")
 
     # Test specialized searches
     print_subheader("Specialized Searches")
 
-    reviews = retriever.search_reviews("helpful professor", top_k=2)
-    print_result("Reviews found", len(reviews))
+    reviews_resp = retriever.search_reviews("helpful professor", top_k=2)
+    print_result("Reviews found", len(reviews_resp.results))
 
-    events = retriever.search_events("career fair", top_k=2)
-    print_result("Events found", len(events))
+    events_resp = retriever.search_events("career fair", top_k=2)
+    print_result("Events found", len(events_resp.results))
 
-    resources = retriever.search_resources("study guide", top_k=2)
-    print_result("Resources found", len(resources))
+    resources_resp = retriever.search_resources("study guide", top_k=2)
+    print_result("Resources found", len(resources_resp.results))
 
     print("\n[PASS] Retrieval tests completed")
     return True
@@ -311,10 +311,10 @@ def test_agent(interactive: bool = False):
     print_header("TESTING AGENT SYSTEM")
 
     # Check for API key
-    api_key = os.getenv("ANTHROPIC_API_KEY")
+    api_key = os.getenv("GOOGLE_API_KEY")
     if not api_key:
-        print("\n[WARN] ANTHROPIC_API_KEY not set. Skipping agent tests.")
-        print("       Set the environment variable to test the full pipeline.")
+        print("\n[WARN] GOOGLE_API_KEY not set. Skipping agent tests.")
+        print("       Get a free key at: https://aistudio.google.com/apikey")
         return True
 
     from src.generation.context_manager import TriblyAssistant
