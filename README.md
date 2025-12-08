@@ -76,7 +76,7 @@ tribly-ai-assistant/
 ├── src/
 │   ├── embeddings/      # Sentence transformer embeddings
 │   ├── retrieval/       # Vector search and ranking
-│   ├── generation/      # Claude LLM integration
+│   ├── generation/      # Gemeni LLM integration
 │   ├── recommendation/  # Collaborative filtering
 │   ├── guardrails/      # Safety and content filtering
 │   ├── evaluation/      # Metrics and analysis
