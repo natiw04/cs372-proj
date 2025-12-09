@@ -87,5 +87,3 @@ htmlcov/
 .streamlit/secrets.toml
 
 
-# Misc
-TECHNICAL_WALKTHROUGH.md
