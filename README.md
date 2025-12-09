@@ -40,34 +40,46 @@ streamlit run app/streamlit_app.py
 
 ## Video Links
 
-- **Demo Video**: [(https://youtu.be/C5Un_awL5V4)]
-- **Technical Walkthrough**: [(https://youtu.be/9zT5eCVqJzw)]
+- **Demo Video**: [Link to non-technical demo showing the assistant in action]
+- **Technical Walkthrough**: [Link to code walkthrough explaining ML techniques]
 
 ## Evaluation
 
 ### Retrieval Performance
 
-| Metric | Keyword Baseline | Vector Search | Hybrid |
-|--------|------------------|---------------|--------|
-| Precision@5 | TBD | TBD | TBD |
-| Recall@5 | TBD | TBD | TBD |
-| MRR | TBD | TBD | TBD |
+| Metric | Keyword Baseline | Semantic Search | Hybrid |
+|--------|------------------|-----------------|--------|
+| Precision@1 | 0.24 | 0.40 | 0.44 |
+| Precision@5 | 0.27 | 0.28 | 0.28 |
+| Recall@5 | 0.39 | 0.44 | 0.44 |
+| Recall@10 | 0.47 | 0.64 | 0.68 |
+| MRR | 0.40 | 0.56 | 0.57 |
+| Avg Latency | 1ms | 66ms | 25ms |
 
-### Response Quality
+**Key Findings:**
+- **Semantic search** achieves the best MRR (0.56), ranking relevant results higher
+- **Hybrid search** provides the best Recall@10 (0.68) for comprehensive retrieval
+- **Keyword search** is 66x faster but with lower quality metrics
 
-| Aspect | Score |
-|--------|-------|
-| Relevance | TBD |
-| Accuracy | TBD |
-| Helpfulness | TBD |
+### Evaluation Details
 
-### Ablation Study Results
+Evaluated on 25 test queries across 5 categories:
+- Professor/teacher queries (5)
+- Class/course queries (5)
+- Study resource queries (5)
+- Event queries (5)
+- General/mixed queries (5)
 
-See `notebooks/05_ablation_study.ipynb` for detailed analysis of:
-- Chunk size impact on retrieval quality
-- Top-k retrieval variations
-- Embedding model comparisons
-- Prompt template effectiveness
+### Comparison Analysis
+
+See `notebooks/evaluation.ipynb` for detailed analysis including:
+- Precision@k comparison charts
+- Recall@k comparison charts
+- MRR comparison visualization
+- Latency comparison
+- Performance heatmap
+
+Generated charts saved to `results/figures/`
 
 ## Project Structure
 
@@ -76,7 +88,7 @@ tribly-ai-assistant/
 ├── src/
 │   ├── embeddings/      # Sentence transformer embeddings
 │   ├── retrieval/       # Vector search and ranking
-│   ├── generation/      # Gemeni LLM integration
+│   ├── generation/      # Claude LLM integration
 │   ├── recommendation/  # Collaborative filtering
 │   ├── guardrails/      # Safety and content filtering
 │   ├── evaluation/      # Metrics and analysis
@@ -99,3 +111,6 @@ This is a solo project completed by Natnael Worku.
 3. **Evaluation Framework**: Comprehensive metrics and ablation studies
 4. **Production-ready API**: FastAPI backend with proper error handling
 
+## License
+
+This project is for educational purposes as part of COMPSCI 372 FALL 2025.

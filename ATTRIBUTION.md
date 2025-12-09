@@ -24,7 +24,7 @@ This document provides detailed attribution for all external resources, librarie
 
 | Service | License | Purpose | URL |
 |---------|---------|---------|-----|
-| Anthropic Claude API | Commercial | Response generation | https://www.anthropic.com/ |
+| Google Gemini API | Commercial | Response generation
 
 ### API and Web
 
@@ -60,15 +60,15 @@ This model was trained by the Sentence Transformers team and is based on Microso
 
 | Model | Provider | License | Purpose |
 |-------|----------|---------|---------|
-| Claude (claude-sonnet-4-20250514) | Anthropic | Commercial API | Response generation |
+| Gemini (gemeni-2.5-flash) | Google | Commercial API | Response generation |
 
-Used via Anthropic's API for generating natural language responses based on retrieved context.
+Used via Google Gemini's API for generating natural language responses based on retrieved context.
 
 ## AI-Generated Content Disclosure
 
 In accordance with academic integrity requirements, the following AI tools were used during development:
 
-### Claude (Anthropic)
+### Google Gemini
 
 - **Purpose**: Code assistance, documentation writing, debugging help
 - **Scope**:
@@ -104,22 +104,6 @@ All personal identifiable information (PII) has been removed or anonymized:
 | Sentence Embeddings | SBERT.net tutorials | Implementation patterns for embedding generation |
 | ChromaDB Integration | ChromaDB Documentation | Vector store setup and querying |
 
-### Academic References
-
-If this project references academic papers, they will be listed here:
-
-1. Reimers, N., & Gurevych, I. (2019). Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks. *EMNLP 2019*.
-2. Lewis, P., et al. (2020). Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. *NeurIPS 2020*.
-
-## License Compliance
-
-All libraries used in this project are compatible with educational and research use:
-
-- Apache 2.0: Permissive, allows commercial and private use
-- MIT: Permissive, allows any use with attribution
-- BSD-3-Clause: Permissive, allows any use with attribution
-
-The Anthropic Claude API is used under their commercial terms of service for development and educational purposes.
 
 ## Acknowledgments
 
