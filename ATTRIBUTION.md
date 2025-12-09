@@ -78,12 +78,6 @@ In accordance with academic integrity requirements, the following AI tools were 
   - Helped draft documentation
 - **Review Process**: All AI-generated code was reviewed, tested, and modified as needed
 
-### GitHub Copilot (if used)
-
-- **Purpose**: Code completion and suggestions
-- **Scope**: Inline code suggestions while writing Python
-- **Review Process**: Suggestions were reviewed before acceptance
-
 ## Data Sources
 
 ### Sample Data
@@ -129,6 +123,4 @@ The Anthropic Claude API is used under their commercial terms of service for dev
 
 ## Acknowledgments
 
-- Course instructors and TAs for guidance on project requirements
-- The open-source community for the excellent tools and libraries
-- Anthropic for providing Claude API access
+- Professor Fain and TAs for guidance on project requirements

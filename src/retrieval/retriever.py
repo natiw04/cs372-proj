@@ -151,6 +151,9 @@ class Retriever:
         Returns:
             RetrievalResponse with ranked results.
         """
+        # Ensure top_k is an integer (Gemini sometimes passes float)
+        top_k = int(top_k)
+
         # Support 'mode' as alias for 'method' for backwards compatibility
         search_method = mode if mode is not None else method
 

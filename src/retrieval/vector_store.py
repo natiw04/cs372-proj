@@ -201,6 +201,9 @@ class VectorStore:
 
         collection = self._collections[collection_name]
 
+        # Ensure top_k is an integer (Gemini sometimes passes float)
+        top_k = int(top_k)
+
         # Build query parameters
         query_params = {
             "query_embeddings": [query_embedding],
@@ -263,6 +266,9 @@ class VectorStore:
             Merged results sorted by similarity.
         """
         self._ensure_initialized()
+
+        # Ensure top_k is an integer (Gemini sometimes passes float)
+        top_k = int(top_k)
 
         collections_to_search = collections or self.COLLECTIONS
         all_results = []
