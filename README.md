@@ -91,7 +91,7 @@ tribly-ai-assistant/
 
 ## Individual Contributions
 
-This is a solo project completed by [Your Name].
+This is a solo project completed by Natnael Worku.
 
 ### Key Technical Contributions:
 1. **RAG Pipeline**: End-to-end retrieval-augmented generation system
@@ -99,6 +99,3 @@ This is a solo project completed by [Your Name].
 3. **Evaluation Framework**: Comprehensive metrics and ablation studies
 4. **Production-ready API**: FastAPI backend with proper error handling
 
-## License
-
-This project is for educational purposes as part of [Course Name].
