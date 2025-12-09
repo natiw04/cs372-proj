@@ -40,7 +40,7 @@ streamlit run app/streamlit_app.py
 
 ## Video Links
 
-- **Demo Video**: [Link to non-technical demo showing the assistant in action]
+- **Demo Video**: [(https://youtu.be/C5Un_awL5V4)]
 - **Technical Walkthrough**: [(https://youtu.be/9zT5eCVqJzw)]
 
 ## Evaluation
